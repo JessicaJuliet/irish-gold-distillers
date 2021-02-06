@@ -64,3 +64,15 @@ body {
 .hero-button:hover {
     color: #e09900;
 }
+
+/*------------------ History Section ------------------*/
+.history-section {
+    background-color: #231f20;
+    background-size: cover;
+    padding: 80px 0;
+    color: #fafafa;
+}
+
+.history-section h2 {
+    color: #e09900;
+}
