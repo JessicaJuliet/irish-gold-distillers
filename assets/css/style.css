@@ -1,13 +1,19 @@
 
 /*------------------ Navbar ------------------*/
 .navbar-custom{
-    padding: 10px 250px;
+    padding: 10px 150px;
 }
 
 /*------------------ Header ------------------*/
 .hero-image {
-    background: url("assets/img/hero-image.jpeg");
+    /*-- Resource: Photo by Adam Jaime on Unsplash https://unsplash.com/photos/dmkmrNptMpw */
+    background: url("../img/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
+    min-width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
 }
