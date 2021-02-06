@@ -1,5 +1,13 @@
 
 /*------------------ Navbar ------------------*/
 .navbar-custom{
-    padding: 10px 80px;
+    padding: 10px 250px;
+}
+
+/*------------------ Header ------------------*/
+.hero-image {
+    background: url("assets/img/hero-image.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
