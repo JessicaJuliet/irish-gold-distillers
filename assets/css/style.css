@@ -80,5 +80,8 @@ body {
 
 .image-section {
     background-color: #fafafa;
+}
+
+.image {
     margin: 80px 0;
 }
