@@ -10,8 +10,9 @@ body {
     background-color: #231f20 !important;
 }
 
-.navbar-custom a:hover{
+.navbar-nav .active {
     color: #e09900 !important;
+    font-weight: 700;
 }
 
 /*------------------ Header ------------------*/
