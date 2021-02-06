@@ -68,7 +68,7 @@ body {
 /*------------------ History Section ------------------*/
 .history-section {
     background-color: #231f20;
-    padding: 80px 0;
+    padding: 120px 0;
     color: #fafafa;
 }
 
@@ -83,5 +83,17 @@ body {
 }
 
 .image {
-    margin: 80px 0;
+    margin: 120px 0;
+}
+
+/*------------------ Footer ------------------*/
+.footer {
+    background-color: #231f20;
+    min-height: 250px;
+
+}
+
+.footer img {
+    height: 70px;
+    margin-top: 70px;
 }
