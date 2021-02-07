@@ -76,12 +76,12 @@ body {
     color: #e09900;
 }
 
-/*------------------ Search Distillery Section ------------------*/
-.searchDistillery {
+/*------------------ Search Distilleries Section ------------------*/
+.searchDistilleries {
     padding: 120px 0;
 }
 
-.searchDistillery h2 {
+.searchDistilleries h2 {
     color: #231f20;
     padding-bottom: 20px;
 }
@@ -115,6 +115,18 @@ body {
     color: #e09900;
     padding: 30px 0 10px 0;
 }
+
+/*------------------ Map View Tab ------------------*/
+
+#map {
+    min-height: 600px;
+    width: 100%;
+}
+
+
+
+
+
 
 
 
