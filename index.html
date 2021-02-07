@@ -109,7 +109,30 @@
                     lng: -7.6921
                 }
             });
+
+            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+            var locations = [
+                {lat: 53.24086322022629, lng: -6.182406730684958},
+                {lat: 53.11013131381952, lng: -6.092314835156995},
+                {lat: 52.29202640135422, lng: -7.056471452810409}
+            ];
+
+            var markers = locations.map(function(location, i){
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+            /* Resource: https://developers.google.com/maps/documentation/javascript/marker-clustering */
+            new MarkerClusterer(map, markers, {
+                imagePath:
+                "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
+            });
         }
+     
+
+       
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyD-DZjtwNbuniq4dWWIXYLUD67Hhwc2I&callback=initMap"></script>
