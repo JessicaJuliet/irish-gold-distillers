@@ -76,6 +76,49 @@ body {
     color: #e09900;
 }
 
+/*------------------ Search Distillery Section ------------------*/
+.searchDistillery {
+    padding: 120px 0;
+}
+
+.searchDistillery h2 {
+    color: #231f20;
+    padding-bottom: 20px;
+}
+
+/*------------------ Tab Buttons ------------------*/
+
+/* Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
+
+.tab button {
+    background-color: light grey;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    float: right;
+    margin-left: 10px;
+}
+
+.tab button:hover {
+  background-color: #231f20;
+  color: #fafafa;
+}
+
+.tab button.active {
+  background-color: #e09900;
+}
+
+/*------------------ Tab Content ------------------*/
+
+.tabcontent h3{
+    color: #e09900;
+    padding: 30px 0 10px 0;
+}
+
+
+
+
 /*------------------ Image Section ------------------*/
 
 .image-section {
@@ -97,3 +140,4 @@ body {
     height: 70px;
     margin-top: 70px;
 }
+
