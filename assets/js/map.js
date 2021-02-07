@@ -26,7 +26,7 @@
             {lat:54.05008271369942, lng: -6.429100452770025},
             {lat:54.70523083531857, lng: -8.634750315329319},
             {lat:53.40916990836243, lng: -6.283676237781938}
-        ];
+        ]; 
 
         var markers = locations.map(function(location, i){
             return new google.maps.Marker({
@@ -35,12 +35,14 @@
                 map: map,
                 /* -- Resource: Create custom markers - https://developers.google.com/maps/documentation/javascript/custom-markers */ 
                 /* -- Resource: Image made by https://www.freepik.com on https://www.flaticon.com/ */ 
-                icon: 'assets/img/whiskey-cask.png'
+                icon: 'assets/img/whiskey-cask.png',
             });
-        });
+    });
+
         /* Resource: https://developers.google.com/maps/documentation/javascript/marker-clustering */
         new MarkerClusterer(map, markers, {
             imagePath:
                "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
         });
     }  
+
