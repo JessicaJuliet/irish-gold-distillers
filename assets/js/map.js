@@ -33,6 +33,7 @@
                 position: location,
                 label: labels[i % labels.length],
                 map: map,
+                /* -- Resource: Image made by https://www.freepik.com on https://www.flaticon.com/ */ 
                 icon: 'assets/img/whiskey-cask.png'
             });
         });
