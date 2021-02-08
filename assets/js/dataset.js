@@ -1,7 +1,7 @@
 /* Resource: Dataset - https://oralytics.com/2020/02/24/irish-whiskey-distilleries-data-set/ */
-/* Resource: Photos and content sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
+/* Resource: Photos and description content sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
 
-const dataset = [
+let dataset = [
     {
         placeId: "ChIJwymf5QoQZ0gRr3hER40bqrs",
         title: "The Shed Distillery",
@@ -102,7 +102,7 @@ const dataset = [
         lng: -6.289195334427413,
     }, 
         {
-        placeId: " ChIJPXBIo4NnXUgRkp8OgeLWonI",
+        placeId: "ChIJPXBIo4NnXUgRkp8OgeLWonI",
         title: "Royal Oak Distillery",
         county: "Carlow",
         website: "http://www.royaloakdistillery.com/",
@@ -111,5 +111,5 @@ const dataset = [
         photo: "assets/img/listings/royal-oak.jpg",
         lat: 52.702493408415826,
         lng:  -6.9801330093114675,
-    }, 
-]
+    } 
+];
