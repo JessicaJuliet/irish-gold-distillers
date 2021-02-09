@@ -20,22 +20,9 @@
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        var locations = [
-            {lat: 54.04729435487668, lng: -8.042941142348049},
-            {lat: 51.93567739110183, lng: -10.238846098232802},
-            {lat: 52.14765986681307, lng: -8.052948943714533},
-            {lat: 53.34385070067678, lng: -6.2852054614128985},
-            {lat: 53.184244356019555, lng: -6.190472365118261},
-            {lat: 53.337426216648204, lng: -6.275956805591871},
-            {lat: 51.62164586638968, lng: -8.885773430778368},
-            {lat: 53.71185722592359, lng: -6.558260212981522},
-            {lat: 53.34377785880115, lng: -6.289195334427413},
-            {lat: 52.702493408415826, lng:  -6.9801330093114675},
-        ]; 
-
-        var markers = locations.map(function(location, i){
+        var markers = dataset.map(function(location, i){
             return new google.maps.Marker({
-                position: location,
+                position: {lat: location.lat, lng: location.lng},
                 label: labels[i % labels.length],
                 map: map,
                 /* -- Resource: Create custom markers - https://developers.google.com/maps/documentation/javascript/custom-markers */ 
