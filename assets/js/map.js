@@ -34,8 +34,6 @@
             content: contentString,
         });
 
-        marker.infowindow = infowindow;
-
         marker.addListener("click", () => {
         infowindow.open(map, marker);
         });
