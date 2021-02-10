@@ -28,7 +28,13 @@
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
         });
 
-        const contentString = '<div>Test Content Info Window</div>';
+        //const contentString = '<div>Test Content Info Window</div>';
+
+        const contentString = {
+            dataset.title,
+            dataset.county,
+            dataset.website,
+        };
      
         const infowindow = new google.maps.InfoWindow({
             content: contentString,
