@@ -27,4 +27,17 @@
             imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
         });
+
+        const contentString = '<div>Test Content Info Window</div>';
+     
+        const infowindow = new google.maps.InfoWindow({
+            content: contentString,
+        });
+
+        marker.infowindow = infowindow;
+
+        marker.addListener("click", () => {
+        infowindow.open(map, marker);
+        });
+
     }
