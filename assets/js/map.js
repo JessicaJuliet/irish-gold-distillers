@@ -12,6 +12,14 @@
         var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
         var markers = dataset.map(function(location, i){
+            const contentString = {
+                name: dataset.title,
+            };
+            
+            const infowindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+            
             return new google.maps.Marker({
                 //Pull lat and lng values from dataset.js
                 position: {lat: location.lat, lng: location.lng},
@@ -20,6 +28,10 @@
                 /* -- Resource: Create custom markers - https://developers.google.com/maps/documentation/javascript/custom-markers / Image made by https://www.freepik.com on https://www.flaticon.com/ */ 
                 icon: 'assets/img/map-pointer.png',
             });
+
+            marker.addListener("click", () => {
+                infowindow.open(map, marker);
+            });
         });
 
         /* Resource: https://developers.google.com/maps/documentation/javascript/marker-clustering */
@@ -27,21 +39,4 @@
             imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
         });
-
-        //const contentString = '<div>Test Content Info Window</div>';
-
-        const contentString = {
-            dataset.title,
-            dataset.county,
-            dataset.website,
-        };
-     
-        const infowindow = new google.maps.InfoWindow({
-            content: contentString,
-        });
-
-        marker.addListener("click", () => {
-        infowindow.open(map, marker);
-        });
-
     }
