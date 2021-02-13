@@ -1,42 +1,32 @@
-/* Resource: Google Maps JavaScript API Tutorial https://www.youtube.com/watch?v=Zxf1mnP5zcw and Code Institute's Google Maps module */
+// Resource: Code taken from Google's Nearby Places- https://developers.google.com/maps/documentation/javascript/places#place_search_requests 
 
-    // Initialise and add map of Ireland
-    function initMap(){
-        // Link to map id in HTML
-        let map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 7,
-            // Location of Ireland
-            center: {lat: 53.1424, lng: -7.6921},
-        });
+var map;
+var service;
+var infowindow;
 
-        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+function initMap() {
+  var ireland = new google.maps.LatLng(53.1424, -7.6921);
 
-        var markers = dataset.map(function(location, i){
-            const contentString = {
-                name: dataset.title,
-            };
-            
-            const infowindow = new google.maps.InfoWindow({
-                content: contentString,
-            });
-            
-            return new google.maps.Marker({
-                //Pull lat and lng values from dataset.js
-                position: {lat: location.lat, lng: location.lng},
-                label: labels[i % labels.length],
-                map: map,
-                /* -- Resource: Create custom markers - https://developers.google.com/maps/documentation/javascript/custom-markers / Image made by https://www.freepik.com on https://www.flaticon.com/ */ 
-                icon: 'assets/img/map-pointer.png',
-            });
+  map = new google.maps.Map(document.getElementById('map'), {
+      center: ireland,
+      zoom: 7
+    });
 
-            marker.addListener("click", () => {
-                infowindow.open(map, marker);
-            });
-        });
+  var request = {
+    location: ireland,
+    radius: '15000',
+    type: ['restaurant']
+  };
 
-        /* Resource: https://developers.google.com/maps/documentation/javascript/marker-clustering */
-        new MarkerClusterer(map, markers, {
-            imagePath:
-            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-        });
+  service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, callback);
+}
+
+function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      createMarker(results[i]);
     }
+    console.log(results);
+  }
+}
