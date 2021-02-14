@@ -1,5 +1,5 @@
 // Resource: Code taken from Google's Nearby Places- https://developers.google.com/maps/documentation/javascript/places#place_search_requests 
-
+/*
 var map;
 var service;
 var infowindow;
@@ -29,4 +29,4 @@ function callback(results, status) {
     }
     console.log(results);
   }
-}
+} */

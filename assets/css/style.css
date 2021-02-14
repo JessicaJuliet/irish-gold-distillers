@@ -116,21 +116,6 @@ body {
     padding: 30px 0 10px 0;
 }
 
-/*------------------ Map View Tab ------------------*/
-
-#map {
-    min-height: 600px;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
 /*------------------ Image Section ------------------*/
 
 .image-section {
@@ -153,3 +138,8 @@ body {
     margin-top: 70px;
 }
 
+/*------------------ Leaflet.js Map ------------------*/
+#map {
+    min-height: 600px;
+    width: 100%;
+}
