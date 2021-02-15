@@ -14,13 +14,11 @@
 
     // Resource: https://leafletjs.com/reference-1.7.1.html#icon
     var myIcon = L.icon({
-        iconUrl: "assets/img/map-pointer.png",
+        iconUrl: "assets/img/map-pointer.png"
     });
 
     // For-each loop to run through dataset.js
     dataset.forEach((location) => {
-        L.marker([location.lat, location.lng]).addTo(map);
+        L.marker([location.lat, location.lng]).addTo(map).bindTooltip(location.title);
     });
-
-
 

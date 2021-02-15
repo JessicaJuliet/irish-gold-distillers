@@ -1,5 +1,6 @@
 /* Resource: Dataset - https://oralytics.com/2020/02/24/irish-whiskey-distilleries-data-set/ */
 /* Resource: Photos and description content sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
+/* Resource: Google PlaceId: https://developers.google.com/places/web-service/place-id, lat and lng: Google Maps */
 
 let dataset = [
     {
@@ -11,7 +12,7 @@ let dataset = [
         description: "The Shed Distillery presents two distinct experiences in one tour –  a Curious Journey into the Inner Sanctum of the first whiskey distillery in Connacht in 101 years and a voyage to the Far East to discover gunpowder tea, the inspiration behind Drumshanbo Gunpowder Irish Gin.",
         photo: "assets/img/listings/the-shed.jpg",
         lat: 54.04729435487668, 
-        lng: -8.042941142348049,
+        lng: -8.042941142348049
     }, 
     {
         placeId: "ChIJYy-3vTTzT0gRg7T8ipG2j8Q",
@@ -22,7 +23,7 @@ let dataset = [
         description: "Skellig Six18 is the only working distillery on the Ring of Kerry. Just outside Cahersiveen town, on the Skellig Coast and close to the UNESCO World Heritage Site of Skellig Michael.",
         photo: "assets/img/listings/skellig.jpg",
         lat: 51.93567739110183, 
-        lng: -10.238846098232802,
+        lng: -10.238846098232802
     }, 
     {
         placeId: "ChIJVQfECZA_Q0gR3VpgLNHJyo0",
@@ -33,7 +34,7 @@ let dataset = [
         description: "Beautifully framed within the West Waterford countryside on the banks of the Blackwater river, Blackwater Distillery is renowned nationally and internationally for its innovative, informed and brave approach to creating a diverse range of contemporary Irish spirits.",
         photo: "assets/img/listings/blackwater.jpg",
         lat: 52.14765986681307,
-        lng: -8.052948943714533,
+        lng: -8.052948943714533
     }, 
     {
         placeId: "ChIJ6ZnJQ5UNZ0gRWKIwt2v3pC8",
@@ -44,7 +45,7 @@ let dataset = [
         description: "Located in the former Guinness Power Station in the heart of Dublin’s buzzing Liberties district, Roe & Co is a brand that lives and breathes creative reinvention.",
         photo: "assets/img/listings/roe.jpg",
         lat: 53.34385070067678,
-        lng: -6.2852054614128985,
+        lng: -6.2852054614128985
     }, 
     {
         placeId: "ChIJiwVFJ-OmZ0gRSExGUHw0rB0",
@@ -55,7 +56,7 @@ let dataset = [
         description: "Set against the backdrop of the Great Sugarloaf Mountain and drawing from an underground lake of pure water that lies beneath the Estate, Powerscourt sets the perfect stage for distilling Irish whiskey.", 
         photo: ".assets/img/listings/powerscourt.png",
         lat: 53.184244356019555, 
-        lng: -6.190472365118261,
+        lng: -6.190472365118261
     }, 
     {
         placeId: "ChIJuRsKpSMMZ0gRza0_qOTgHyk",
@@ -66,7 +67,7 @@ let dataset = [
         description: "The Dublin Liberties Distillery is a stunning state of the art working distillery housed in a 400-year-old mill building in the heart of Dublin city.",
         photo: "assets/img/listings/liberties.jpg",
         lat: 53.337426216648204, 
-        lng: -6.275956805591871,
+        lng: -6.275956805591871
     }, 
     {
         placeId: "ChIJG9M36y1SREgRpMxzvgojIAs",
@@ -77,7 +78,7 @@ let dataset = [
         description: "Immerse yourself in a unique sensory experience by booking a behind the scenes tour of a real working distillery.",
         photo: "assets/img/listings/clonakilty",
         lat: 51.62164586638968, 
-        lng: -8.885773430778368,
+        lng: -8.885773430778368
     }, 
         {
         placeId: "ChIJn-j9XxJGZ0gRgqO5tN6peiE",
@@ -88,7 +89,7 @@ let dataset = [
         description: "Set in the heart of the Boyne Valley, Slane Distillery is housed in beautifully restored 250-year-old stable buildings on the grounds of the legendary Slane Castle, famous around the globe for the incredible series of rock concerts.",
         photo: "assets/img/listings/slane.png",
         lat: 53.71185722592359, 
-        lng: -6.558260212981522,
+        lng: -6.558260212981522
     }, 
         {
         placeId: "ChIJ5ylq_DkMZ0gRZVVjqVBQtgo",
@@ -99,7 +100,7 @@ let dataset = [
         description: "Discover over 800 years of history and awaken your senses with whiskey tours and tastings at this boutique distillery.",
         photo: "assets/img/listings/pearse-lyon.jpg",
         lat: 53.34377785880115, 
-        lng: -6.289195334427413,
+        lng: -6.289195334427413
     }, 
         {
         placeId: "ChIJPXBIo4NnXUgRkp8OgeLWonI",
@@ -111,5 +112,124 @@ let dataset = [
         photo: "assets/img/listings/royal-oak.jpg",
         lat: 52.702493408415826,
         lng:  -6.9801330093114675,
+    }, 
+        {
+        placeId: "ChIJV1WFtJITYUgR_ZeXdbXsUPg",
+        title: "Rademon Estate Distillery",
+        county: Down,
+        website: "http://www.shortcrossgin.com/",
+        tours: "Currently closed",
+        description: "Rademon Estate Distillery is home to Shortcross Gin and a new single malt Irish whiskey. Rademon Estate is currently made up of over 500 acres of land and dates to AD565 with the original estate house dating back to 1667. The estate is steeped in history from Rademon House itself, through to the original courtyard, cottages, workers bell and the imposing obelisk.",
+        photo: ,
+        lat: 54.39596771045236, 
+        lng: -5.790359218036798
+    }, 
+
+        {
+        placeId: "ChIJkY-glu9HWUgRPkt35DRrkJs",
+        title: "Connacht Whiskey Distillery",
+        county: "Mayo",
+        website: "https://twitter.com/connachtwhiskey?lang=en",
+        tours: "Currently closed",
+        description: "Connacht Whiskey Company makes fine hand-crafted single malt pot still Irish whiskey in the West of Ireland. The distillery is located along the scenic banks of the River Moy in Ballina, Co. Mayo.",
+        photo: ,
+        lat: 54.12204196194578, 
+        lng: -9.14384187756911
+    }, 
+
+        {
+        placeId: "ChIJJUwuzetvYUgRUpmY47AMqy8",
+        title: "The Echlinville Distillery",
+        county: "Down",
+        website: "https://echlinville.com/",
+        tours: "Currently closed",
+        description: "The Echlinville Distillery Tour & Tipple offers a real insight into the workings of Northern Ireland’s first newly licensed distillery for over 125 years and home to some of Ireland’s best-known spirits – Dunville’s Irish Whiskey, Echlinville Gin, Jawbox Gin, Weavers Gin and Bán Poitín.",
+        photo: ,
+        lat: 54.46915307978796,
+        lng: -5.5099783757047245
+    }, 
+
+        {
+        placeId: "ChIJU01Eqbz7T0gR2JFsZNceDfk",
+        title: "Dingle Distillery",
+        county: "Kerry",
+        website: "https://dingledistillery.ie/",
+        tours: "Currently closed",
+        description: "The Dingle Whiskey Distillery, located just outside the scenic town of Dingle, Co. Kerry, was Ireland’s first purpose-built distillery in over 100 years. Oliver Hughes, Liam Lahart and Peter Mosley had the vision to bring an artisan craft distillery to the picturesque town of Dingle.",
+        photo: ,
+        lat: 52.14192754537933, 
+        lng: -10.288836062312049
+    }, 
+
+        {
+        placeId: "ChIJFVLiJYq6XUgRIVuysk33PkY",
+        title: "Kilbeggan Distillery",
+        county: "Westmeath",
+        website: "https://www.kilbegganwhiskey.com/",
+        tours: "Currently closed",
+        description: "Visitors to the Kilbeggan Distillery Experience will learn about the traditional methods of mashing in oak mash tuns, fermenting in Oregon pine vats and see the new Kilbeggan malt spirit flowing from ancient pot stills.",
+        photo: ,
+        lat: 53.369571903452915, 
+        lng: -7.502294091095068
+    }, 
+
+        {
+        placeId: "ChIJP7C-J4SlXUgRmktFAlzpvEw",
+        title: "Tullamore D.E.W.",
+        county: "Offaly",
+        website: "https://www.tullamoredew.com/en-gb/",
+        tours: "Currently closed",
+        description: "For whiskey explorers eager to learn about the history and craft of the world-renowned Tullamore D.E.W. Irish whiskey, a visit to the home of the brand is a must.",
+        photo: ,
+        lat: 53.278170447146735, 
+        lng: -7.485784628915246,
+    }, 
+
+        {
+        placeId: "ChIJLZ2x_i5jQ0gRRoXtBzX0-iE",
+        title: "Jameson Distillery",
+        county: "Cork",
+        website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-midleton",
+        tours: "Currently closed",
+        description: "Midleton is Ireland’s largest whiskey distillery and the home of Jameson – the world’s most popular Irish whiskey.",
+        photo: ,
+        lat: 51.91343553242752, 
+        lng: -8.168870408348862
+    }, 
+
+        {
+        placeId: "ChIJ0UBQ46cPZ0gR5l2bcDiVXt0",
+        title: "Teeling Whiskey Distillery",
+        county: "Dublin",
+        website: "https://www.teelingwhiskey.com/",
+        tours: "Currently closed",
+        description: "Teeling Whiskey Distillery is Dublin’s destination for whiskey fans and for anyone with an interest in Dublin’s rich Irish whiskey history.",
+        photo: ,
+        lat: 53.31432004369853,
+        lng: -6.216940845220594
+    }, 
+
+        {
+        placeId: "ChIJdW92FOYuYEgRjm5TTLZJxB4",
+        title: "Bushmills Distillery",
+        county: "Antrim",
+        website: "https://bushmills.com/intl/",
+        tours: "Currently closed",
+        description: "The Old Bushmills Distillery is situated along the north coast of Ireland, where arctic storms rage against the jagged cliffs and where the crisp waters of the River Bush cut through volcanic rock. ",
+        photo: ,
+        lat: 55.20298837855927,
+        lng: -6.516550785467245
+    }, 
+
+        {
+        placeId: "ChIJs0Ciwy4MZ0gRFFpl7MaNZAQ",
+        title: "Jameson Distillery",
+        county: "Dubin",
+        website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st",
+        tours: "Currently closed",
+        description: "In 1780 John Jameson threw open the doors of his distillery on Bow St. Over 200 years later, the doors are still open – to friends old and new.",
+        photo: ,
+        lat: 53.34868527982778,
+        lng: -6.276604562173476
     } 
 ];
