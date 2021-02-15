@@ -116,7 +116,7 @@ let dataset = [
         {
         placeId: "ChIJV1WFtJITYUgR_ZeXdbXsUPg",
         title: "Rademon Estate Distillery",
-        county: Down,
+        county: "Down",
         website: "http://www.shortcrossgin.com/",
         tours: "Currently closed",
         description: "Rademon Estate Distillery is home to Shortcross Gin and a new single malt Irish whiskey. Rademon Estate is currently made up of over 500 acres of land and dates to AD565 with the original estate house dating back to 1667. The estate is steeped in history from Rademon House itself, through to the original courtyard, cottages, workers bell and the imposing obelisk.",
