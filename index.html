@@ -48,21 +48,20 @@
         <h2 class="">Discover Distilleries</h2>
         <!-- Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp -->
         <div class="tab">
-            <button id="defaultOpen" class="tablinks" onclick="openSearch(event, 'gridView')">Grid View</button>
-            <button class="tablinks" onclick="openSearch(event, 'mapView')">Map View</button>
+            <button id="defaultOpen" class="tablinks" onclick="openSearch(event, 'mapView')">Map View</button>
+            <button class="tablinks" onclick="openSearch(event, 'gridView')">Grid View</button>
+        </div>
+        <!-- Start map View Tab -->
+        <div id="mapView" class="tabcontent">
+            <h3>Map View</h3>
+            <p>Explore the whiskey distilleries across Ireland on the interactive map below:</p>
+            <!-- Leaflet.js map-->
+            <div id="map"></div>
         </div>
         <!-- Start Grid View Tab -->
         <div id="gridView" class="tabcontent">
             <h3>Grid View</h3>
-            <p>Search for whiskey distilleries near you</p>
-            <div id="map"></div>
-            <!-- Leaflet.js map-->
-        </div>
-        <!-- Start Map View Tab -->
-        <div id="mapView" class="tabcontent">
-            <h3>Map View</h3>
-            <p>Explore whiskey distilleries in Ireland on the map below:</p>
-            <!-- <div id="map"></div> -->
+            <p>Discover the whiskey distilleries in Ireland below:</p>
         </div> 
     </section>
     <!-- Start History Section -->
