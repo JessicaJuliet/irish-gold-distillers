@@ -130,12 +130,32 @@ body {
 .footer {
     background-color: #231f20;
     min-height: 250px;
-
 }
 
 .footer img {
     height: 70px;
     margin-top: 70px;
+}
+
+/* Resource: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu */
+ul {
+  list-style-type: none;
+  margin-top: 90px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 8px;
+}
+
+li a {
+    color: white;
+}
+
+.footer li a:hover {
+    color: #e09900;
+    text-decoration: none;
 }
 
 /*------------------ Leaflet.js Map ------------------*/

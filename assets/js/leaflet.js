@@ -19,6 +19,6 @@
 
     // For-each loop to run through dataset.js
     dataset.forEach((location) => {
-        L.marker([location.lat, location.lng]).addTo(map).bindTooltip(location.title);
+        L.marker([location.lat, location.lng]).addTo(map)
+        .bindTooltip(location.title)
     });
-
