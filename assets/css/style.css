@@ -164,7 +164,12 @@ li a {
     width: 100%;
 }
 
-
 .mapImage {
     max-height: 150px;
+}
+
+.mapTitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
 }
