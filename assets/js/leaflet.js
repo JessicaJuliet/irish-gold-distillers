@@ -21,9 +21,8 @@
     dataset.forEach((location) => {
         L.marker([location.lat, location.lng]).addTo(map)
         .bindTooltip("<p class='mapTitle'><strong>" + location.title + "</strong></p>" + "<br>" 
+        + "<strong>Address: </strong>" + location.address + "<br>" 
         + "<strong>County: </strong>" + location.county + "<br>" 
         + "<strong>Tours: </strong>" + location.tours + "<br><br>" 
         + "<img class='mapImage' src=" + location.photo + ">")
     });
-
-
