@@ -1,11 +1,12 @@
 /* Resource: Dataset - https://oralytics.com/2020/02/24/irish-whiskey-distilleries-data-set/ */
-/* Resource: Photos and description content sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
+/* Resource: Photos and description content were sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
 /* Resource: Google PlaceId: https://developers.google.com/places/web-service/place-id, lat and lng: Google Maps */
 
 let dataset = [
     {
         placeId: "ChIJwymf5QoQZ0gRr3hER40bqrs",
         title: "The Shed Distillery",
+        address: "Bypass Road, Drumshanbo",
         county: "Leitrim",
         website: "http://thesheddistillery.com/",
         tours: "Currently closed",
@@ -17,6 +18,7 @@ let dataset = [
     {
         placeId: "ChIJYy-3vTTzT0gRg7T8ipG2j8Q",
         title: "Skellig Six18 Distillery",
+        address: "Valentia Rd, Garranearagh, Cahersiveen",
         county: "Kerry",
         website: "http://skelligsix18distillery.ie/",
         tours: "Currently closed",
@@ -28,6 +30,7 @@ let dataset = [
     {
         placeId: "ChIJVQfECZA_Q0gR3VpgLNHJyo0",
         title: "Blackwater Distillery",
+        address: "Church Road, Ballinlevane East, Ballyduff, P51 C5C6",
         county: "Waterford",
         website: "http://www.blackwaterdistillery.ie/",
         tours: "Currently closed",
@@ -39,6 +42,7 @@ let dataset = [
     {
         placeId: "ChIJ6ZnJQ5UNZ0gRWKIwt2v3pC8",
         title: "Roe and Co Distiller",
+        address: "92 James St, The Liberties, Dublin 8",
         county: "Dublin",
         website: "https://www.roeandcowhiskey.com/",
         tours: "Currentl closed",
@@ -50,6 +54,7 @@ let dataset = [
     {
         placeId: "ChIJiwVFJ-OmZ0gRSExGUHw0rB0",
         title: "The Powerscourt Distiller",
+        address: "Powerscourt Estate, Enniskerry, A98 A9T7",
         county: "Wicklow",
         website: "http://www.powerscourtdistillery.com/",
         tours: "Currently closed",
@@ -60,7 +65,8 @@ let dataset = [
     }, 
     {
         placeId: "ChIJuRsKpSMMZ0gRza0_qOTgHyk",
-        title: "Dublin Liberties Distillery",
+        title: "The Dublin Liberties Distillery",
+        address: "33 Mill St, The Liberties, D08 V221",
         county: "Dublin",
         website: "https://thedld.com/",
         tours: "Currently closed",
@@ -72,6 +78,7 @@ let dataset = [
     {
         placeId: "ChIJG9M36y1SREgRpMxzvgojIAs",
         title: "Clonakilty Distillery",
+        address: "The Waterfront, Scartagh, Clonakilty, P85 N403",
         county: "Cork",
         website: "https://clonakiltydistillery.ie/",
         tours: "Currently closed",
@@ -83,6 +90,7 @@ let dataset = [
         {
         placeId: "ChIJn-j9XxJGZ0gRgqO5tN6peiE",
         title: "Slane Distillery",
+        address: "N51, Slanecastle Demesne",
         county: "Meath",
         website: "http://slaneirishwhiskey.com/",
         tours: "Currently closed",
@@ -94,6 +102,7 @@ let dataset = [
         {
         placeId: "ChIJ5ylq_DkMZ0gRZVVjqVBQtgo",
         title: "Pearse Lyons Distillery",
+        address: "121-122 James St, The Liberties, D08 ET27",
         county: "Dublin",
         website: "https://www.pearselyonsdistillery.com/",
         tours: "Currently closed",
@@ -105,6 +114,7 @@ let dataset = [
         {
         placeId: "ChIJPXBIo4NnXUgRkp8OgeLWonI",
         title: "Royal Oak Distillery",
+        address: "Clorusk Lower, Royaloak",
         county: "Carlow",
         website: "http://www.royaloakdistillery.com/",
         tours: "Currently closed",
@@ -116,6 +126,7 @@ let dataset = [
         {
         placeId: "ChIJV1WFtJITYUgR_ZeXdbXsUPg",
         title: "Rademon Estate Distillery",
+        address: "65 Church Rd, Crossgar, Downpatrick BT30 9HR",
         county: "Down",
         website: "http://www.shortcrossgin.com/",
         tours: "Currently closed",
@@ -128,6 +139,7 @@ let dataset = [
         {
         placeId: "ChIJkY-glu9HWUgRPkt35DRrkJs",
         title: "Connacht Whiskey Distillery",
+        address: "Belleek, Ballina, F26 P932",
         county: "Mayo",
         website: "https://twitter.com/connachtwhiskey?lang=en",
         tours: "Currently closed",
@@ -140,6 +152,7 @@ let dataset = [
         {
         placeId: "ChIJJUwuzetvYUgRUpmY47AMqy8",
         title: "The Echlinville Distillery",
+        address: "62 Gransha Rd, Kircubbin, Newtownards BT22 1AJ",
         county: "Down",
         website: "https://echlinville.com/",
         tours: "Currently closed",
@@ -152,6 +165,7 @@ let dataset = [
         {
         placeId: "ChIJU01Eqbz7T0gR2JFsZNceDfk",
         title: "Dingle Distillery",
+        address: "Farranredmond, Dingle",
         county: "Kerry",
         website: "https://dingledistillery.ie/",
         tours: "Currently closed",
@@ -164,6 +178,7 @@ let dataset = [
         {
         placeId: "ChIJFVLiJYq6XUgRIVuysk33PkY",
         title: "Kilbeggan Distillery",
+        address: "Lower Main St, Aghamore, Kilbeggan",
         county: "Westmeath",
         website: "https://www.kilbegganwhiskey.com/",
         tours: "Currently closed",
@@ -176,6 +191,7 @@ let dataset = [
         {
         placeId: "ChIJP7C-J4SlXUgRmktFAlzpvEw",
         title: "Tullamore D.E.W.",
+        address: "Kilbride Plaza, Bury Quay, Puttaghan, Tullamore",
         county: "Offaly",
         website: "https://www.tullamoredew.com/en-gb/",
         tours: "Currently closed",
@@ -188,6 +204,7 @@ let dataset = [
         {
         placeId: "ChIJLZ2x_i5jQ0gRRoXtBzX0-iE",
         title: "Jameson Distillery",
+        address: "Old Midleton Distillery, Distillery Walk, Midleton, P25 Y394",
         county: "Cork",
         website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-midleton",
         tours: "Currently closed",
@@ -200,6 +217,7 @@ let dataset = [
         {
         placeId: "ChIJ0UBQ46cPZ0gR5l2bcDiVXt0",
         title: "Teeling Whiskey Distillery",
+        address: "13-17 Newmarket, The Liberties, Dublin 8, D08 KD91",
         county: "Dublin",
         website: "https://www.teelingwhiskey.com/",
         tours: "Currently closed",
@@ -212,6 +230,7 @@ let dataset = [
         {
         placeId: "ChIJdW92FOYuYEgRjm5TTLZJxB4",
         title: "Bushmills Distillery",
+        address: "2 Distillery Rd, Bushmills BT57 8XH",
         county: "Antrim",
         website: "https://bushmills.com/intl/",
         tours: "Currently closed",
@@ -224,6 +243,7 @@ let dataset = [
         {
         placeId: "ChIJs0Ciwy4MZ0gRFFpl7MaNZAQ",
         title: "Jameson Distillery",
+        address: "Bow St, Smithfield, Dublin 7, D07 N9VH",
         county: "Dubin",
         website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st",
         tours: "Currently closed",
