@@ -16,7 +16,7 @@
 <body>
     <!-- Start Header -->
     <header>
-        <!-- Resource: https://getbootstrap.com/docs/4.0/components/navbar/ -->
+        <!-- Resource: Navbar code sourced from - https://getbootstrap.com/docs/4.0/components/navbar/ -->
         <nav class="navbar-custom navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/igd-logo-white.png" height="70px" class="d-inline-block align-top" alt="Irish Gold Distillers logo">
@@ -44,13 +44,13 @@
     </section>
     <!-- Start Tab Section -->
     <section class="searchDistilleries container" id="discoverDistilleries">
-        <h2 class="">Discover Distilleries</h2>
-        <!-- Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp -->
+        <h2>Discover Distilleries</h2>
+        <!-- Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp -->
         <div class="tab">
             <button id="defaultOpen" class="tablinks" onclick="openSearch(event, 'mapView')">Map View</button>
             <button class="tablinks" onclick="openSearch(event, 'gridView')">Grid View</button>
         </div>
-        <!-- Start map View Tab -->
+        <!-- Start Map View Tab -->
         <div id="mapView" class="tabcontent">
             <h3>Map View</h3>
             <p>Explore the whiskey distilleries across Ireland on the interactive map below:</p>
@@ -66,12 +66,14 @@
     </section>
     <!-- Start History Section -->
     <!-- Resource: https://stackoverflow.com/questions/32543253/overriding-bootstrap-container-full-width-background-color -->
-    <section class="history-section col-12" id="history">
+    <section class="history-section col-12">
         <div class="container">
             <h2>History of Ireland's Whiskey Distileries</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident, illum distinctio suscipit architecto deserunt? Magnam sit numquam quisquam? orem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident.
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident, illum distinctio suscipit architecto deserunt? Magnam sit numquam quisquam? orem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident.
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident, illum distinctio suscipit architecto deserunt? Magnam sit numquam quisquam?
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit quam reiciendis ducimus vitae iure dicta repudiandae maxime nisi doloremque provident, illum distinctio suscipit architecto deserunt? Magnam sit numquam quisquam?
             </p>
         </div>
     </section>
@@ -80,12 +82,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 image"> 
-                    <!-- Resource: Photo by Li Sun from Pexels https://www.pexels.com/photo/clear-drinking-glass-on-table-2466319/-->
-                    <img src="assets/img/whiskey-1.jpg" class="img-fluid">
+                    <!-- Resource: Photo by Li Sun from Pexels https://www.pexels.com/photo/clear-drinking-glass-on-table-2466319/ -->
+                    <img src="assets/img/whiskey-1.jpg" alt="Glass of whiskey on wooden table with coffee beans" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-6 image">
-                    <!-- Resource: Photo by Dylan de Jonge on Unsplash https://unsplash.com/photos/pe9T4ROjpzQ-->
-                    <img src="assets/img/whiskey-2.jpg" class="img-fluid">
+                    <!-- Resource: Photo by Dylan de Jonge on Unsplash https://unsplash.com/photos/pe9T4ROjpzQ -->
+                    <img src="assets/img/whiskey-2.jpg" alt="Hand hold whiskey bottle and pouring into glass" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -95,36 +97,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                    <a href="index.html"><img src="assets/img/igd-logo-white.png"></a>
+                    <a href="index.html"><img src="assets/img/igd-logo-white.png" alt="Irish Gold Distillers logo"></a>
                 </div>
                 <div class="col-4">
                     <ul class="footer-links">
-                        <li><a href="#discoverDistilleries">Discover Distilleries</a></li>
-                        <li><a href="#history">History</a></li>
+                        <li>
+                            <a href="#discoverDistilleries">Discover Distilleries</a>
+                        </li>
+                        <li>
+                            <a href="#history">History</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Bootstrap scripts. Resource: https://www.bootstrapcdn.com/ -->
+    <!-- Scripts -->
+    <!-- Bootstrap scripts - https://www.bootstrapcdn.com/ -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <!-- Leaflet.js script -->
+    <!-- Leaflet.js script - https://leafletjs.com/examples/quick-start/ -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
     </script>
-    <!-- Google Maps Scripts -->
-    <!-- <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script> -->
-    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyD-DZjtwNbuniq4dWWIXYLUD67Hhwc2I&libraries=places&initMap" async> -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyD-DZjtwNbuniq4dWWIXYLUD67Hhwc2I&callback=initMap&libraries=places&v=weekly" async> 
-    </script> -->
-    <!-- Own script tags -->
+    <!-- Own script files -->
+    <script src="assets/js/leaflet.js"></script>
     <script src="assets/js/dataset.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="assets/js/leaflet.js"></script>
 </body>
 </html>
