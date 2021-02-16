@@ -1,6 +1,7 @@
 //Resource: Leaflet Map, an open-source JavaScript library, https://leafletjs.com/examples/quick-start/
 
     //Resource: https://github.com/TravelTimN/ci-ifd-lead/blob/main/week4-leafletjs/leaflet.md
+    //Resource: Map tiles sourced from http://alexurquhart.github.io/free-tiles/
     var mapTileLayers = L.tileLayer("https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
     });
