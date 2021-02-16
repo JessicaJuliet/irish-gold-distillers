@@ -54,7 +54,7 @@ let dataset = [
         website: "http://www.powerscourtdistillery.com/",
         tours: "current closed",
         description: "Set against the backdrop of the Great Sugarloaf Mountain and drawing from an underground lake of pure water that lies beneath the Estate, Powerscourt sets the perfect stage for distilling Irish whiskey.", 
-        photo: ".assets/img/listings/powerscourt.png",
+        photo: "assets/img/listings/powerscourt.png",
         lat: 53.184244356019555, 
         lng: -6.190472365118261
     }, 
@@ -76,7 +76,7 @@ let dataset = [
         website: "https://clonakiltydistillery.ie/",
         tours: "Currently closed",
         description: "Immerse yourself in a unique sensory experience by booking a behind the scenes tour of a real working distillery.",
-        photo: "assets/img/listings/clonakilty",
+        photo: "assets/img/listings/clonakilty.jpg",
         lat: 51.62164586638968, 
         lng: -8.885773430778368
     }, 
@@ -98,7 +98,7 @@ let dataset = [
         website: "https://www.pearselyonsdistillery.com/",
         tours: "Currently closed",
         description: "Discover over 800 years of history and awaken your senses with whiskey tours and tastings at this boutique distillery.",
-        photo: "assets/img/listings/pearse-lyon.jpg",
+        photo: "assets/img/listings/pearse-lyons.jpg",
         lat: 53.34377785880115, 
         lng: -6.289195334427413
     }, 
@@ -228,7 +228,7 @@ let dataset = [
         website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st",
         tours: "Currently closed",
         description: "In 1780 John Jameson threw open the doors of his distillery on Bow St. Over 200 years later, the doors are still open – to friends old and new.",
-        photo: "assets/img/listings/jameson-dubin",
+        photo: "assets/img/listings/jameson-dublin.jpg",
         lat: 53.34868527982778,
         lng: -6.276604562173476
     } 

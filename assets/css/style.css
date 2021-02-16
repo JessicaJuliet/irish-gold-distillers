@@ -163,3 +163,8 @@ li a {
     min-height: 600px;
     width: 100%;
 }
+
+
+.mapImage {
+    max-height: 150px;
+}
