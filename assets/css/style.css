@@ -173,3 +173,8 @@ li a {
     font-weight: 300;
     margin-bottom: 0px;
 }
+
+/*------------------ Grid Section ------------------*/
+.gridImage {
+     max-height: 150px;
+}

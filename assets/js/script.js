@@ -32,7 +32,12 @@ function openSearch(evt, searchView) {
     dataset.forEach((distillery) => {
         document.getElementById("gridContent").innerHTML =
         `<h4>${distillery.title}</h4>` + 
-        `<P>${distillery.description}</P>`;
+        `<p><strong>Address: </strong>${distillery.address}</p>` +
+        `<p><strong>County: </strong>${distillery.county}</p>` +
+        `<p><strong>Tours: </strong>${distillery.tours}</p>` +
+        `<P><strong>Description: </strong>${distillery.description}</P>` +
+        `<strong>Website: </strong><a href="${distillery.website}">${distillery.website}</a><br>` +
+        `<br><img class="gridImage" src="${distillery.photo}">`;
     });
 
 
