@@ -23,3 +23,24 @@ function openSearch(evt, searchView) {
   document.getElementById(searchView).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
+
+// Grid view of distilleries
+    //For loop to run through dataset.js to display grid of distilleries
+
+    dataset.forEach((distillery) => {
+        document.getElementById("gridContent").innerHTML =
+        `<h4>${distillery.title}</h4>` + 
+        `<P>${distillery.description}</P>`;
+    });
+
+
+
+   // for (let i = 0; index < dataset.length; i++) {
+     //   const distillery = dataset[i];
+       //     dataset.for((distillery) => {
+         //   document.getElementById("gridContent").innerHTML = 
+           // `<h4>${distillery.title}</h4>` + 
+            //`<P>${distillery.description}</P>`;
+   // };

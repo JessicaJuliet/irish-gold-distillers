@@ -62,11 +62,14 @@
         <div id="gridView" class="tabcontent">
             <h3>Grid View</h3>
             <p>Discover the whiskey distilleries in Ireland below:</p>
+            <br>
+            <div id="gridContent">   
+            </div>
         </div> 
     </section>
     <!-- Start History Section -->
     <!-- Resource: https://stackoverflow.com/questions/32543253/overriding-bootstrap-container-full-width-background-color -->
-    <section class="history-section col-12">
+    <section class="history-section col-12" id="history">
         <div class="container">
             <h2>History of Ireland's Whiskey Distileries</h2>
             <p>
@@ -83,11 +86,11 @@
             <div class="row">
                 <div class="col-12 col-sm-6 image"> 
                     <!-- Resource: Photo by Li Sun from Pexels https://www.pexels.com/photo/clear-drinking-glass-on-table-2466319/ -->
-                    <img src="assets/img/whiskey-pour.jpg" alt="Glass of whiskey on wooden table with coffee beans" class="img-fluid">
+                    <img src="assets/img/whiskey-pour.jpg" alt="Hand holding whiskey bottle and pouring into glass" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-6 image">
                     <!-- Resource: Photo by Josh Collesano on Unsplash https://unsplash.com/photos/coTTvjild6U -->
-                    <img src="assets/img/whiskey-casks.jpg" alt="Whiskey casks" class="img-fluid">
+                    <img src="assets/img/whiskey-casks.jpg" alt="Whiskey casks stacked" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -122,6 +125,9 @@
     </script>
     <!-- Leaflet.js script - https://leafletjs.com/examples/quick-start/ -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
+    </script>
+    <!-- jQuery https://code.jquery.com/ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
     </script>
     <!-- Own script files -->
     <script src="assets/js/dataset.js"></script>
