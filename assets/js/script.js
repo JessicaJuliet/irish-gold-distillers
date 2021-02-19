@@ -28,24 +28,17 @@ function openSearch(evt, searchView) {
 
 // Grid view of distilleries
     //For loop to run through dataset.js to display grid of distilleries
-
+    var i;
+    for (let i = 0; i < dataset.length; i++){
     dataset.forEach((distillery) => {
-        document.getElementById("gridContent").innerHTML =
+        document.getElementById("gridContent").innerHTML += 
         `<h4>${distillery.title}</h4>` + 
         `<p><strong>Address: </strong>${distillery.address}</p>` +
         `<p><strong>County: </strong>${distillery.county}</p>` +
         `<p><strong>Tours: </strong>${distillery.tours}</p>` +
         `<P><strong>Description: </strong>${distillery.description}</P>` +
-        `<strong>Website: </strong><a href="${distillery.website}">${distillery.website}</a><br>` +
+        `<a href="${distillery.website}">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">`;
-    });
+    })
+};
 
-
-
-   // for (let i = 0; index < dataset.length; i++) {
-     //   const distillery = dataset[i];
-       //     dataset.for((distillery) => {
-         //   document.getElementById("gridContent").innerHTML = 
-           // `<h4>${distillery.title}</h4>` + 
-            //`<P>${distillery.description}</P>`;
-   // };
