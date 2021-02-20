@@ -170,6 +170,6 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 
     * Chrome Developer Tools was used to test the site's responsiveness on different devices and to debug the code
 
+* Font Awesome
 
-
-
+    * 
