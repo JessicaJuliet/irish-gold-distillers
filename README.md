@@ -134,6 +134,22 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 
     * Gitpod was used as the development environment to write my code
 
+* HTML
+
+    * HTML was the main language used to create this website
+
+* CSS
+
+    * Custom CSS was used to add bespoke design
+
+* JavaScript
+
+    * JavaScript was used to create interactive elements on the website
+
+* Bootstrap
+
+    * Bootstrap was used throughout the website for the grid layout, navbar and buttons
+
 * balsamiq
 
     * balsamiq was used to create low-fidelity wireframes of the website
@@ -144,4 +160,16 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 
 * Google Fonts
 
-Google Fonts was used to find, sample and import fonts for the logo and website
+    * Google Fonts was used to find, sample and import fonts for the logo and website
+
+* TinyPNG
+
+    * TinyPNG was used to compress all images before uploading them to Gitpod to ensure a good website speed
+
+* Google Chrome Developer Tools
+
+    * Chrome Developer Tools was used to test the site's responsiveness on different devices and to debug the code
+
+
+
+
