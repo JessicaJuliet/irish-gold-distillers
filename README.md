@@ -1,3 +1,42 @@
+# Irish Gold Distillers Website
+
+## Table of Contents
+* Purpose
+* User Experience Design
+    * User stories
+        * First-time Visitor Goals
+        * Returning Visitor Goals
+        * Frequent Visitor Goals
+* Design
+    * Colour scheme
+    * Wireframes
+    * Typography
+    * Imagery
+* Features
+    * Features
+    * Existing Features
+    * Features Left to Implement
+* Technologies Used
+* Testing
+    * Automated Testing
+        * Responsiveness
+        * W3C Validator Tools
+        * Problems Encountered
+    * Manual Testing
+        * User Story Testing
+        * Devices
+        * Browsers
+        * CI Peer Code Review
+        * Issues Encountered
+* Deployment
+    * GitHub Project Creation
+    * GitHub Pages
+    * Run Locally
+* Credits
+    * Code and Guiding Resources
+    * Media
+    * Acknowledgements
+
 ## Purpose
 
 The purpose of this website is to provide the end user with a collection of whiskey distilleries across Ireland. Information will be provided on the distilleries’ name, website and rating. Furthermore, the user will also be able to view their location on an interactive map and filter by county. 

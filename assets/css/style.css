@@ -179,3 +179,9 @@ li a {
 .gridImage {
      max-height: 150px;
 }
+
+.gridDiv {
+    margin-right: 0px;
+    padding: 30px;
+    display: inline-block;
+}
