@@ -3,7 +3,7 @@
     //Resource: https://github.com/TravelTimN/ci-ifd-lead/blob/main/week4-leafletjs/leaflet.md
     //Resource: Map tiles sourced from http://alexurquhart.github.io/free-tiles/
     
-    var mapTileLayers = L.tileLayer("https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}");
+    var mapTileLayers = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png");
 
     //Initialise Map
     var map = L.map("map", {
