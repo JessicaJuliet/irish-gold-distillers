@@ -38,7 +38,7 @@ function openSearch(evt, searchView) {
         `<p><strong>County: </strong>${distillery.county}</p>` +
         `<p><strong>Tours: </strong>${distillery.tours}</p>` +
         `<P><strong>Description: </strong>${distillery.description}</P>` +
-        `<a type="button" class="btn website-btn" href="${distillery.website}">Visit website</a><br>` +
+        `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
         `</div>`;
     })

@@ -198,7 +198,7 @@ li a {
 
 .gridDiv {
     padding: 30px;
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: rgb(236, 234, 234);
     border-radius: 5px;
     height: 750px;
