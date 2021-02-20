@@ -65,27 +65,6 @@ body {
     color: #e09900;
 }
 
-/*------------------ History Section ------------------*/
-.history-section {
-    background-color: #231f20;
-    padding: 120px 0;
-    color: #fafafa;
-}
-
-.history-section h2 {
-    color: #e09900;
-}
-
-/*------------------ Search Distilleries Section ------------------*/
-.searchDistilleries {
-    padding: 120px 0;
-}
-
-.searchDistilleries h2 {
-    color: #231f20;
-    padding-bottom: 20px;
-}
-
 /*------------------ Tab Buttons ------------------*/
 
 /* Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
@@ -116,6 +95,27 @@ body {
     padding: 30px 0 10px 0;
 }
 
+/*------------------ Search Distilleries Section ------------------*/
+.searchDistilleries {
+    padding: 120px 0;
+}
+
+.searchDistilleries h2 {
+    color: #231f20;
+    padding-bottom: 20px;
+}
+
+/*------------------ History Section ------------------*/
+.history-section {
+    background-color: #231f20;
+    padding: 120px 0;
+    color: #fafafa;
+}
+
+.history-section h2 {
+    color: #e09900;
+}
+
 /*------------------ Image Section ------------------*/
 
 .image-section {
@@ -123,7 +123,7 @@ body {
 }
 
 .image {
-    margin: 120px;
+    padding: 120px 20px;
 }
 
 /*------------------ Footer ------------------*/
