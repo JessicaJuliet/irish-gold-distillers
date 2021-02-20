@@ -201,8 +201,16 @@ li a {
     display: inline-block;
     background-color: rgb(236, 234, 234);
     border-radius: 5px;
+    height: 750px;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
-#gridContent {
-    padding-top: 15px;
+.website-btn {
+    background-color: #231f20;
+    color: white;
+}
+
+.website-btn:hover {
+    color: #e09900;
 }
