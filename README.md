@@ -13,6 +13,8 @@
     * [Colour scheme](#colour-scheme)
     * [Imagery](#imagery)
         * [Logo](#logo)
+        * [Stock Images](#stock-images)
+        * [Distillery Imager](#distillery-images)
 * Features
     * Features
     * Existing Features
@@ -87,12 +89,13 @@ The font chosen for this website is [Merriweather](https://fonts.google.com/spec
 
 I got inspiration to use this font from looking at other whiskey website and whiskey bottle packaging to see the type of fonts which they used. I sampled different fonts using Google Fonts and inputted sample text to preview the style beforehand.
 
+![Merriweather](assets/img/merriweather.png) - *image source, [Font Squirel](https://www.fontsquirrel.com/fonts/merriweather)*
+
 #### Colour Scheme
 
 The colour theme chosen for this website is black and gold. The gold colour was sourced from the [Irish Distiller's](https://www.irishdistillers.ie/) website.
 
-Gold is used to represent the colour of whiskey and black evokes a feeling of quality, luxury and professionalism on the website. It also creates great contrast with gold. 
-
+Gold is used to represent the colour of whiskey and black evokes a feeling of quality and professionalism on the website. It also creates great contrast with gold. 
 
 * **Black** - Hex value #231f20
 * **Gold** - Hex value #e09900
@@ -106,6 +109,16 @@ Gold is used to represent the colour of whiskey and black evokes a feeling of qu
 The logo consists of a gold droplet to represent whiskey and the text ‘Irish Gold Distillers’. The font used is Merriweather Light for ‘Irish Gold’ and Merriweather Black for ‘Distillers’.  The favicon is a gold droplet of whiskey. 
 
 The gold used in both the favicon and logo has a hex value of #e09900. Inspiration for this gold was sourced from [Pernod Ricard’s Irish Distillers](https://www.irishdistillers.ie/) website. Furthermore, the logo and favicon were created in Adobe Illustrator and saved in the appropriate file formats to ensure a reduced file size. 
+
+![Irish Gold Distillers logo](assets/img/igd-logo-white.png)
+
+#### Stock Images
+
+The website uses strong and impactful whiskey imagery to capture the users interest from the start. The stock images used on the website were sourced from [Unsplash](https://unsplash.com) and referenced within the code.
+
+#### Distillery Images
+
+The images for each of the distilleries were taken from [Irish Whiskey 360](https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/), as well as their descriptive content. 
 
 ## Technologies Used
 
