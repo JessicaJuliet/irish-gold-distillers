@@ -53,21 +53,17 @@ Please see the [Irish Gold Distillers](https://jessicajuliet.github.io/irish-gol
 
 **First-time Visitor Goals**
 
-* As a first-time visitor, I want to navigate through the website easily on a mobile device
-* As a first-time visitor, I want to be able to quickly identify that the website offers a one stop location for all the whiskey distilleries in Ireland 
-* As a first-time visitor, I want to see visual images of whiskey which represent quality products
-
+* As a first-time visitor, I want to navigate through the website easily on a mobile and desktop device
+* As a first-time visitor, I want to be able to quickly identify that the website houses all the whiskey distilleries in Ireland 
+* As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery which represent quality products
 
 **Returning Visitor Goals**
 
-* As a returning visitor, I want to explore the whiskey distilleries in Ireland and filter by county
-* As a returning visitor, I want to easily see the location of the distilleries on an interactive map
+* As a returning visitor, I want to explore the whiskey distilleries across Ireland, read their description and see associated imagery so I know what to expect before  visiting
+* As a returning visitor, I want to easily find the location of Ireland's whiskey distilleries on an interactive map
 
 **Frequent Visitor Goals**
-
-* As a frequent visitor, I want to see if they take reusable cups
-* As a frequent visitor, I want to check to see if they have a loyalty scheme
-* As a frequent visitor, I want to read about the company to establish whether they're an independent coffee shop or a chain
+* As a frequent visitor, I want to read about the history of Ireland's whiskey distilleries
 
 ### Design
 
