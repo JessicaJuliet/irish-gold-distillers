@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Resource: https://www.bootstrapcdn.com/ -->
+    <!-- Bootstrap, resource: https://www.bootstrapcdn.com/ -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
-    <!-- Leaftlet.js stylesheet-->
+    <!-- Font Awesome, resource: https://www.bootstrapcdn.com/fontawesome/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Leaftlet.js, resource: https://leafletjs.com/examples/quick-start/ -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
@@ -47,11 +49,12 @@
         <h2>Discover Distilleries</h2>
         <!-- Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp -->
         <div class="tab">
-            <button id="defaultOpen" class="tablinks" onclick="openSearch(event, 'mapView')">Map View</button>
-            <button class="tablinks" onclick="openSearch(event, 'gridView')">Grid View</button>
+            <!-- Icons resource: https://fontawesome.bootstrapcheatsheets.com/# -->
+            <button id="defaultOpen" class="tablinks" onclick="openSearch(event, 'mapView')"><i class="fa fa-map-marker"></i>Map View</button>
+            <button class="tablinks" onclick="openSearch(event, 'gridView')"><i class="fa fa-map"></i>Grid View</button>
         </div>
         <!-- Start Map View Tab -->
-        <div id="mapView" class="tabcontent">
+        <div id="mapView" class="tabcontent"> 
             <h3>Map View</h3>
             <p>
                 Explore the whiskey distilleries across Ireland on the interactive map below:

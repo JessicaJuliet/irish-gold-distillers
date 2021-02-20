@@ -95,6 +95,10 @@ body {
     padding: 30px 0 10px 0;
 }
 
+.fa-map-marker, .fa-map {
+    padding-right: 10px;
+}
+
 /*------------------ Search Distilleries Section ------------------*/
 .searchDistilleries {
     padding: 120px 0;
