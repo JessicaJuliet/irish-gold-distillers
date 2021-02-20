@@ -86,6 +86,7 @@ p {
     font-weight: 400;
     float: right;
     margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .tab button:hover {
@@ -101,7 +102,7 @@ p {
 
 .tabcontent h3{
     color: #e09900;
-    padding: 30px 0 10px 0;
+    /*padding: 30px 0 10px 0;*/
 }
 
 .fa-map-marker, .fa-map {
@@ -196,7 +197,12 @@ li a {
 }
 
 .gridDiv {
-    margin-right: 0px;
     padding: 30px;
     display: inline-block;
+    background-color: rgb(236, 234, 234);
+    border-radius: 5px;
+}
+
+#gridContent {
+    padding-top: 15px;
 }

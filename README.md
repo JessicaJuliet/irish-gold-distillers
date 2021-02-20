@@ -172,4 +172,4 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 
 * Font Awesome
 
-    * 
+    * Sourced icons on website from Font Awesome
