@@ -1,22 +1,23 @@
 # Irish Gold Distillers Website
 
 ## Table of Contents
-* Purpose
-* User Experience Design
-    * User stories
-        * First-time Visitor Goals
-        * Returning Visitor Goals
-        * Frequent Visitor Goals
-* Design
-    * Colour scheme
-    * Wireframes
-    * Typography
-    * Imagery
+* [Purpose](#purpose)
+* [User Experience Design](#user-experience-design)
+    * [User stories](#user-stories)
+        * [First-time Visitor Goals](#first-time-visitor-goals)
+        * [Returning Visitor Goals](#returning-visitor-goals)
+        * [Frequent Visitor Goals](#frequent-visitor-goals)
+* [Design](#design)
+    * [Wireframes](#wireframes)
+    * [Typography](#typography)
+    * [Colour scheme](#colour-scheme)
+    * [Imagery](#imagery)
+        * [Logo](#logo)
 * Features
     * Features
     * Existing Features
     * Features Left to Implement
-* Technologies Used
+* [Technologies Used](#technologies-used)
 * Testing
     * Automated Testing
         * Responsiveness
@@ -51,25 +52,27 @@ Please see the [Irish Gold Distillers](https://jessicajuliet.github.io/irish-gol
 
 ### User stories
 
-**First-time Visitor Goals**
+#### First-time Visitor Goals
 
 * As a first-time visitor, I want to navigate through the website easily on a mobile and desktop device
 * As a first-time visitor, I want to be able to quickly identify that the website houses all the whiskey distilleries in Ireland 
 * As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery which represent quality products
 
-**Returning Visitor Goals**
+#### Returning Visitor Goals
 
 * As a returning visitor, I want to explore the whiskey distilleries across Ireland, read their description and see associated imagery so I know what to expect before  visiting
 * As a returning visitor, I want to easily find the location of Ireland's whiskey distilleries on an interactive map
 
-**Frequent Visitor Goals**
+#### Frequent Visitor Goals
 * As a frequent visitor, I want to read about the history of Ireland's whiskey distilleries
 
 ### Design
 
-### Wireframes
+#### Wireframes
 
-The website allows the user to see Please see the wireframes below for the varying devices:
+Irish Gold Distillers was designed as single page website so the user can easily access its key functionality (showcasing whiskey distilleries in Ireland) with minimal clicks to obtain said information. In addition, as the webpage is short the navbar is not fixed to the top, but links are provided in the footer to ensure minimal scrolling. 
+
+Wireframes were created for mobile, tablet and desktop using balsamiq. Please see the wireframes below for the varying devices:
 
 * [Mobile](https://github.com/JessicaJuliet/irish-gold-distillers/blob/1b44ad115d37410ba98e85bcfdb99d100b33c9df/wireframes/mobile.png)
 * [Mobile Map View](https://github.com/JessicaJuliet/irish-gold-distillers/blob/1b44ad115d37410ba98e85bcfdb99d100b33c9df/wireframes/mobile-map-view.png)
@@ -78,20 +81,27 @@ The website allows the user to see Please see the wireframes below for the varyi
 * [Desktop](https://github.com/JessicaJuliet/irish-gold-distillers/blob/1b44ad115d37410ba98e85bcfdb99d100b33c9df/wireframes/desktop.png)
 * [Desktop Map View](https://github.com/JessicaJuliet/irish-gold-distillers/blob/1b44ad115d37410ba98e85bcfdb99d100b33c9df/wireframes/desktop-map-view.png)
 
-### Typography
+#### Typography
 
-### Colour Theme
+The font chosen for this website is [Merriweather](https://fonts.google.com/specimen/Merriweather). Merriweather is a serif font was designed specifically for screens and is pleasant to read. 
 
-The colour theme chosen for this website is black and gold. Gold is used to represent the colour of whiskey and black evokes a feeling of quality, luxury and professionalism on the website. It also creates good contrast with gold.
+I got inspiration to use this font from looking at other whiskey website and whiskey bottle packaging to see the type of fonts which they used. I sampled different fonts using Google Fonts and inputted sample text to preview the style beforehand.
 
-* Gold - Hex value #e09900
-* Black - Hex value #231f20
+#### Colour Scheme
 
-![Website colours](https://github.com/JessicaJuliet/irish-gold-distillers/blob/1b44ad115d37410ba98e85bcfdb99d100b33c9df/assets/img/igd-colours.png)
+The colour theme chosen for this website is black and gold. The gold colour was sourced from the [Irish Distiller's](https://www.irishdistillers.ie/) website.
 
-### Imagery
+Gold is used to represent the colour of whiskey and black evokes a feeling of quality, luxury and professionalism on the website. It also creates great contrast with gold. 
 
-### Logo and favicon
+
+* **Black** - Hex value #231f20
+* **Gold** - Hex value #e09900
+
+![Website colours](assets/img/colour-scheme.png) 
+
+#### Imagery
+
+#### Logo
 
 The logo consists of a gold droplet to represent whiskey and the text ‘Irish Gold Distillers’. The font used is Merriweather Light for ‘Irish Gold’ and Merriweather Black for ‘Distillers’.  The favicon is a gold droplet of whiskey. 
 
