@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+
+h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 /*------------------ Navbar ------------------*/
 .navbar-custom{
@@ -45,8 +53,9 @@ body {
 
 .hero-text h2 {
     position: absolute;
-    font-weight: 300;
     line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
 }
 
 .hero-button {
