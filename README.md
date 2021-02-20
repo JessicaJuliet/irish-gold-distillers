@@ -110,7 +110,7 @@ The logo consists of a gold droplet to represent whiskey and the text ‘Irish G
 
 The gold used in both the favicon and logo has a hex value of #e09900. Inspiration for this gold was sourced from [Pernod Ricard’s Irish Distillers](https://www.irishdistillers.ie/) website. Furthermore, the logo and favicon were created in Adobe Illustrator and saved in the appropriate file formats to ensure a reduced file size. 
 
-![Irish Gold Distillers logo](assets/img/igd-logo-white.png)
+![Irish Gold Distillers logo](assets/img/igd-logo-black.png)
 
 #### Stock Images
 
