@@ -39,15 +39,13 @@
 
 ## Purpose
 
-The purpose of this website is to provide the end user with a collection of whiskey distilleries across Ireland. Information will be provided on the distilleries’ name, website and rating. Furthermore, the user will also be able to view their location on an interactive map and filter by county. 
+According to [The Irish Whiskey Association](https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument), whiskey distilleries in Ireland have grown from just four in 2010 to 32 in 2019 demonstrating the scale of Ireland's Whiskey Renaissance. The purpose of the Irish Gold Distillers website is to satisfy the demand for Irish whiskey products by providing the end user with a fully responsive and interactive website showcasing the whiskey distilleries across the country. 
 
-This website is being developed to satisfy the demand for Irish whiskey products. According to The Irish Whiskey Museum, distilleries in Ireland have grown from just four in 2013 to 18 currently, with more to come! 
-
-I was inspired to create the website when I was travelling around the west coast of Ireland during the summer of 2020 and I struggled to source a website which clearly displayed all of the whiskey distilleries across the country. 
+Furthermore, I was inspired to create this website when I was travelling around the west coast of Ireland during the summer of 2020 and I struggled to find a site which clearly displayed all of the whiskey distilleries in the country. I noted this as a good opportunity to fill the gap!
 
 Please note, this website was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. It was developed using the knowledge gained from the HTML, CSS, User Centric Design, JavaScript and Interactive Front-end Development modules.
 
-Please see the [Irish Gold Distillers]() live website here.
+Please see the [Irish Gold Distillers](https://jessicajuliet.github.io/irish-gold-distillers/) live website.
 
 ## User Experience Design
 
