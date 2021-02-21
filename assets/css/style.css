@@ -2,15 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
 }
-
-
 
 /*------------------ Navbar ------------------*/
 .navbar-custom{
@@ -192,18 +190,21 @@ li a {
 
 /*------------------ Grid Section ------------------*/
 
-.gridImage {
-     max-height: 150px;
-}
-
 .gridDiv {
     padding: 30px;
     background-color: rgb(236, 234, 234);
     border-radius: 5px;
-    height: 600px;
+    height: 750px;
     margin-bottom: 60px;
     margin-left: 60px;
     float: left;
+}
+
+.gridImage {
+    width: 100%; 
+    /*height: auto;*/
+    /*display: block;*/
+    /*object-fit: contain;*/
 }
 
 .website-btn {
@@ -213,4 +214,12 @@ li a {
 
 .website-btn:hover {
     background-color: #e09900;
+}
+
+.toursGrid {
+    background-color: #ee2a2a;
+    color: white;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 7px;
 }
