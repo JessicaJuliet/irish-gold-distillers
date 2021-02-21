@@ -9,7 +9,19 @@
     var map = L.map("map", {
         layers: [mapTileLayers],
         center: [53.5, -7.5],
-        zoom: 7
+        zoom: 7,
+        // Resource: Stop map movine when scrolling over https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
+        scrollWheelZoom: false
+    });
+
+    // Resource: Code taken from https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
+    map.on('click', function() {
+        if (map.scrollWheelZoom.enabled()) {
+        map.scrollWheelZoom.disable();
+        }
+        else {
+        map.scrollWheelZoom.enable();
+        }
     });
 
     // Resource: https://leafletjs.com/reference-1.7.1.html#icon
