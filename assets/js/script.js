@@ -42,5 +42,7 @@ function openSearch(evt, searchView) {
         `<br><img class="gridImage" src="${distillery.photo}">` +
         `</div>`;
     })
+    break;
+
 };
 

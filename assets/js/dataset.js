@@ -45,7 +45,7 @@ let dataset = [
         address: "92 James St, The Liberties, Dublin 8",
         county: "Dublin",
         website: "https://www.roeandcowhiskey.com/",
-        tours: "Currentl closed",
+        tours: "Currently closed",
         description: "Located in the former Guinness Power Station in the heart of Dublin’s buzzing Liberties district, Roe & Co is a brand that lives and breathes creative reinvention.",
         photo: "assets/img/listings/roe.jpg",
         lat: 53.34385070067678,
