@@ -9,7 +9,7 @@
     var map = L.map("map", {
         layers: [mapTileLayers],
         center: [53.5, -7.5],
-        zoom: 7,
+        zoom: 6.4,
         // Resource: Stop map movine when scrolling over https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
         scrollWheelZoom: false
     });

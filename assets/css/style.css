@@ -200,6 +200,7 @@ li a {
     float: left;
     /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: transform .2s; 
 }
 
 .gridImage {
@@ -226,3 +227,8 @@ li a {
     width: fit-content;
     padding: 6px 7px;
 }
+
+    /* Resource: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+    .gridDiv:hover {
+    transform: scale(1.02); 
+    }
