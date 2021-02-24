@@ -194,10 +194,12 @@ li a {
     padding: 30px;
     background-color: rgb(236, 234, 234);
     border-radius: 5px;
-    height: 750px;
+    height: 780px;
     margin-bottom: 60px;
     margin-left: 60px;
     float: left;
+    /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .gridImage {
@@ -210,6 +212,7 @@ li a {
 .website-btn {
     background-color: #231f20;
     color: white;
+    padding: 10px;
 }
 
 .website-btn:hover {
@@ -221,5 +224,5 @@ li a {
     color: white;
     border-radius: 3px;
     width: fit-content;
-    padding: 7px;
+    padding: 6px 7px;
 }

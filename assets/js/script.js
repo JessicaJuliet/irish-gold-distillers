@@ -33,7 +33,7 @@ function openSearch(evt, searchView) {
     dataset.forEach((distillery) => {
         document.getElementById("gridContent").innerHTML += 
         `<div class="col-5 gridDiv">` +
-        `<h4>${distillery.title}</h4>` + 
+        `<h4>${distillery.title}</h4><br>` + 
         `<p><strong>Address: </strong>${distillery.address}</p>` +
         `<p><strong>County: </strong>${distillery.county}</p>` +
         `<p class="toursGrid"><strong>Tours: </strong>${distillery.tours}</p>` +
@@ -43,6 +43,5 @@ function openSearch(evt, searchView) {
         `</div>`;
     })
     break;
-
 };
 
