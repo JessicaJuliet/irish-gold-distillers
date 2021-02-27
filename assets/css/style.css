@@ -100,6 +100,7 @@ p {
 
 .tabcontent h3{
     color: #e09900;
+    margin-top: 50px;
     /*padding: 30px 0 10px 0;*/
 }
 
@@ -109,7 +110,8 @@ p {
 
 /*------------------ Search Distilleries Section ------------------*/
 .searchDistilleries {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .searchDistilleries h2 {
@@ -132,12 +134,9 @@ p {
 
 /*------------------ Image Section ------------------*/
 
-.image-section {
+.imageSection {
     background-color: #fafafa;
-}
-
-.image {
-    padding: 120px 20px;
+    padding: 120px 0px;
 }
 
 /*------------------ Footer ------------------*/
@@ -234,64 +233,70 @@ li a {
 
 /*------------------ Grid Hover Button ------------------*/
     
-    /* Hover button styling */
-    .hoverButton {
-        /*background-color: #0b025a;*/
-        background-color: #231f20;
-        color: white;
-        font-size: 17px;
-        font-family: 'Open Sans', sans-serif;
-        border-radius: 5px;
-        padding: 10px;
-        border: none;
-    };
+/* Hover button styling */
+.hoverButton {
+    /*background-color: #0b025a;*/
+    background-color: #231f20;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+};
 
-    /* Position dropdown content */
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        margin-bottom: 50px;
-    } 
+/* Position dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+} 
 
-    /* Change button colour on hover 
-    .hoverButton:hover {
-        background-color: #eceaea;
-        color: #231f20;
-    } */
+/* Change button colour on hover 
+.hoverButton:hover {
+    background-color: #eceaea;
+    color: #231f20;
+} */
 
-    /* Hide dropdown content by default */
-    .dropdownContent {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px #00000033;
-        z-index: 1;
-    }
+/* Hide dropdown content by default */
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
 
-    /* Style dropdown links */
-    .dropdownContent a {
-        color: #231f20;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
+/* Style dropdown links */
+.dropdownContent a {
+    color: #231f20;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-    /* Change colour of dropdown link on hover */
-    .dropdownContent a:hover {
-        background-color: #dddddd;
-    }
+/* Change colour of dropdown link on hover */
+.dropdownContent a:hover {
+    background-color: #dddddd;
+}
 
-    .dropdown:hover .dropdownContent {
-        display: block;
-    }
+.dropdown:hover .dropdownContent {
+    display: block;
+}
 
 
-    
+
 /*------------------ Media Queries ------------------*/
 
 @media only screen and (max-width: 600px){
     .gridDiv {
-        margin: 30px 0 0 0;
+        margin: 40px 0 0 0;
     }
 };
+
+/*@media only screen and (max-width: 600px){
+    .distilleryImage .img-fluid {
+        padding-bottom: 40px !important;
+    }
+}; */
