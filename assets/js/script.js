@@ -1,6 +1,7 @@
-/*------------------ Tab Buttons ------------------*/
+// <------------------ Tab Buttons ------------------>
 
-/* Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
+// Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp 
+
 document.getElementById("defaultOpen").click();
 
 function openSearch(evt, searchView) {
@@ -24,15 +25,11 @@ function openSearch(evt, searchView) {
   evt.currentTarget.className += " active";
 }
 
+// <------------------ Grid view of distilleries ------------------>
 
-
-// Grid view of distilleries
-    //For loop to run through dataset.js to display grid of distilleries
-    var i;
-    for (let i = 0; i < dataset.length; i++){
-    dataset.forEach((distillery) => {
-        document.getElementById("gridContent").innerHTML += 
-        `<div class="col-5 gridDiv">` +
+dataset.forEach((distillery) => {
+    document.getElementById("gridContent").innerHTML += 
+    `<div class="col-5 gridDiv">` +
         `<h4>${distillery.title}</h4><br>` + 
         `<p><strong>Address: </strong>${distillery.address}</p>` +
         `<p><strong>County: </strong>${distillery.county}</p>` +
@@ -40,8 +37,16 @@ function openSearch(evt, searchView) {
         `<P><strong>Description: </strong>${distillery.description}</P>` +
         `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
-        `</div>`;
-    })
-    break;
-};
+    `</div>`;
+    });
+
+
+// <------------------ Hover filter menu (gridView) ------------------>
+
+// Resource: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+
+dataset.forEach((countyName) => {
+    document.getElementById("filterCounties").innerHTML +=
+        `<a>${countyName.county}</a>`
+    });
 

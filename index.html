@@ -56,7 +56,6 @@
         <!-- Start Map View Tab -->
         <div id="mapView" class="tabcontent"> 
             <h3>Map View</h3>
-            <br>
             <p>
                 <strong>Click on the interactive map</strong> below to begin exploring the whiskey distilleries across Ireland:
             </p>
@@ -67,11 +66,15 @@
         <!-- Start Grid View Tab -->
         <div id="gridView" class="tabcontent">
             <h3>Grid View</h3>
-            <br>
             <p>
                 Discover the whiskey distilleries in Ireland below:
             </p>
             <br>
+            <!-- Resource: https://www.w3schools.com/howto/howto_css_dropdown.asp -->
+            <div class="dropdown">
+                <button class="hoverButton">Filter County</button>
+                <div class="dropdownContent" id="filterCounties"></div>
+            </div>
             <div class="container">
                 <div class="row">
                     <div id="gridContent"></div>
@@ -139,7 +142,7 @@
     <!-- Leaflet.js script - https://leafletjs.com/examples/quick-start/ -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="">
     </script>
-    <!-- jQuery https://code.jquery.com/ -->
+    <!-- JQuery https://code.jquery.com/ -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
     </script>
     <!-- Own script files -->
