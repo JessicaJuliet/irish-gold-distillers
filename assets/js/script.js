@@ -29,7 +29,7 @@ function openSearch(evt, searchView) {
 
 dataset.forEach((distillery) => {
     document.getElementById("gridContent").innerHTML += 
-    `<div class="col-5 gridDiv">` +
+    `<div class="col-xs-12 col-md-5 gridDiv">` +
         `<h4>${distillery.title}</h4><br>` + 
         `<p><strong>Address: </strong>${distillery.address}</p>` +
         `<p><strong>County: </strong>${distillery.county}</p>` +
@@ -42,11 +42,46 @@ dataset.forEach((distillery) => {
 
 
 // <------------------ Hover filter menu (gridView) ------------------>
-
 // Resource: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
 
 dataset.forEach((countyName) => {
     document.getElementById("filterCounties").innerHTML +=
         `<a>${countyName.county}</a>`
-    });
+}); 
 
+
+// <------------------ TEST CODE ------------------>
+
+/*dataset.forEach((countyName) => {
+    let result = [];
+    document.getElementById("filterCounties").innerHTML +=
+    `<a>${countyName.county}</a>`
+    if (result.indexOf(countyName) === -1) 
+    result.push(countyName);
+}); */
+
+/* dataset.forEach((countyName) => {
+    document.getElementById("filterCounties").innerHTML +=
+    `<a>${countyName.county}</a>`
+    let unique = [];
+    if(!unique.includes(countyName)){
+     unique.push(countyName.county) 
+    };
+}); */
+
+
+/* function getUnique(array){
+        var uniqueArray = [];
+        
+        // Loop through array values
+        for(var value of array){
+            if(uniqueArray.indexOf(value) === -1){
+                uniqueArray.push(value);
+            }
+        }
+        return uniqueArray;
+    }
+
+    var counties = dataset;
+    var uniqueNames = getUnique(counties.values);
+    console.log(uniqueNames.values); */
