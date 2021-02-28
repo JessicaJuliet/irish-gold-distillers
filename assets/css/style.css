@@ -116,7 +116,18 @@ p {
 
 .searchDistilleries h2 {
     color: #231f20;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.searchDistilleries h2::after {
+    content:'';
+    height: 3px;
+    width: 100px;
+    background: #231f20;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /*------------------ History Section ------------------*/
