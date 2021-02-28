@@ -252,6 +252,10 @@ li a {
     margin-bottom: 50px;
 } 
 
+.fa-sort-desc {
+    padding-left: 7px;
+}
+ 
 /* Change button colour on hover 
 .hoverButton:hover {
     background-color: #eceaea;
