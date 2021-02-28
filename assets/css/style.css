@@ -154,12 +154,12 @@ p {
 .footer {
     background-color: #231f20;
     min-height: 300px;
+    padding: 50px 0px;
 }
 
 /* Resource: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu */
 ul {
   list-style-type: none;
-  margin-top: 90px;
   overflow: hidden;
   padding-inline-start: 0px;
 }
@@ -167,6 +167,7 @@ ul {
 li {
   float: left;
   padding-right: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li a {
@@ -183,9 +184,20 @@ li a {
     padding-top: 40px;
 }
 
-.contact, .contact a {
+.contact a {
     color: white;
-    margin-top: 90px;
+}
+
+footer p {
+    color: white;
+}
+
+footer .fa-phone-square {
+    font-size: 20px;
+}
+
+footer .fa {
+    padding-right: 5px;
 }
 
 /*------------------ Leaflet.js Map ------------------*/
@@ -211,7 +223,7 @@ li a {
     background-color: #eceaea;
     border-radius: 5px;
     height: 780px;
-    margin: 60px 0px 60px 60px;
+    margin: 60px 0px 0px 60px;
     float: left;
     /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
