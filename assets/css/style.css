@@ -40,8 +40,8 @@ p {
     color: #fafafa;
     top: 200px;
     bottom: 165px;
-    left: 150px;
-    right: 0;
+    left: 80px;
+    right: 0px;
 }
 
 .hero-text h1 {
@@ -322,14 +322,34 @@ footer .fa {
 
 /*------------------ Media Queries ------------------*/
 
+
+@media only screen and (max-width: 600px){
+    .hero-text {
+        left: 10px;
+        top: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .hero-text  h2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .hero-button {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .gridDiv {
         margin: 40px 0 0 0;
     }
-};
+}
 
-/*@media only screen and (max-width: 600px){
-    .distilleryImage .img-fluid {
-        padding-bottom: 40px !important;
+@media only screen and (max-width: 600px){
+    .imageSection .img-fluid {
+        padding-bottom: 20px;
     }
-}; */
+}
