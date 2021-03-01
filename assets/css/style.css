@@ -16,9 +16,8 @@ p {
     background-color: #231f20 !important;
 }
 
-.navbar-nav .active {
+.nav-link:hover {
     color: #e09900 !important;
-    font-weight: 700;
 }
 
 /*------------------ Header ------------------*/
