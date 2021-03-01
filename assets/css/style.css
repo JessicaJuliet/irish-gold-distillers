@@ -72,9 +72,15 @@ p {
     color: #e09900;
 }
 
-/*------------------ Tab Buttons ------------------*/
+/*------------------ Search Distilleries Section ------------------*/
+
+.searchDistilleries {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
 
 /* Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
+/* Tab buttons */
 
 .tab button {
     background-color: light grey;
@@ -96,24 +102,11 @@ p {
   background-color: #e09900;
 }
 
-/*------------------ Tab Content ------------------*/
-
-.tabcontent h3{
-    color: #e09900;
-    margin-top: 50px;
-    /*padding: 30px 0 10px 0;*/
-}
-
 .fa-map-marker, .fa-map {
     padding-right: 10px;
 }
 
-/*------------------ Search Distilleries Section ------------------*/
-.searchDistilleries {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
+/* H2 heading */
 .searchDistilleries h2 {
     color: #231f20;
     padding-bottom: 10px;
@@ -128,6 +121,12 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+
+.tabcontent h3{
+    color: #e09900;
+    margin-top: 50px;
 }
 
 /*------------------ History Section ------------------*/
@@ -323,7 +322,14 @@ footer .fa {
 
 /*------------------ Media Queries ------------------*/
 
+/* Navbar */
+@media only screen and (max-width: 600px){
+    .navbarCustom {
+        padding: 15px 15px;
+    }
+}
 
+/* Hero image section  */
 @media only screen and (max-width: 600px){
     .hero-text {
         left: 10px;
@@ -343,20 +349,23 @@ footer .fa {
     }
 }
 
+/* Tab section */
+@media only screen and (max-width: 600px){
+    .tab {
+        padding: 30px 0 30px 0;
+    }
+}
+
+/* Grid view section */
 @media only screen and (max-width: 600px){
     .gridDiv {
         margin: 40px 0 0 0;
     }
 }
 
+/* Image section */
 @media only screen and (max-width: 600px){
     .imageSection .img-fluid {
         padding-bottom: 20px;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .navbarCustom {
-        padding: 15px 15px;
     }
 }
