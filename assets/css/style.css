@@ -16,6 +16,10 @@ p {
     background-color: #231f20 !important;
 }
 
+.nav-link {
+    color: white !important;
+}
+
 .nav-link:hover {
     color: #e09900 !important;
 }
