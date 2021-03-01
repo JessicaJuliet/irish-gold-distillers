@@ -11,7 +11,7 @@ p {
 }
 
 /*------------------ Navbar ------------------*/
-.navbar-custom{
+.navbarCustom{
     padding: 10px 90px;
     background-color: #231f20 !important;
 }
@@ -352,5 +352,11 @@ footer .fa {
 @media only screen and (max-width: 600px){
     .imageSection .img-fluid {
         padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .navbarCustom {
+        padding: 15px 15px;
     }
 }

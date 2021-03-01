@@ -19,7 +19,7 @@
     <!-- Start Header -->
     <header>
         <!-- Resource: Navbar code sourced from - https://getbootstrap.com/docs/4.0/components/navbar/ -->
-        <nav class="navbar-custom navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbarCustom navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/igd-logo-white.png" height="70px" class="d-inline-block align-top" alt="Irish Gold Distillers logo">
             </a>
@@ -50,6 +50,7 @@
         <!-- Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp -->
         <div class="tab">
             <!-- Icons resource: https://fontawesome.bootstrapcheatsheets.com/# -->
+            <!-- Resource: https://stackoverflow.com/questions/36246815/data-toggle-tab-does-not-download-leaflet-map/36257493#36257493 -->
             <button class="tablinks" onclick="openSearch(event, 'mapView'); map.invalidateSize()"><i class="fa fa-map"></i>Map View</button>
             <button class="tablinks" id="defaultOpen" onclick="openSearch(event, 'gridView')"><i class="fa fa-map-marker"></i>Grid View</button>
         </div>
