@@ -244,7 +244,7 @@ let dataset = [
         placeId: "ChIJs0Ciwy4MZ0gRFFpl7MaNZAQ",
         title: "Jameson Distillery",
         address: "Bow St, Smithfield, Dublin 7, D07 N9VH",
-        county: "Dubin",
+        county: "Dublin",
         website: "https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st",
         tours: "Temporarily closed due to Covid-19",
         description: "In 1780 John Jameson threw open the doors of his distillery on Bow St. Over 200 years later, the doors are still open – to friends old and new.",
