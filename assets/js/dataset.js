@@ -4,7 +4,6 @@
 
 let dataset = [
     {
-        placeId: "ChIJwymf5QoQZ0gRr3hER40bqrs",
         title: "The Shed Distillery",
         address: "Bypass Road, Drumshanbo",
         county: "Leitrim",
@@ -16,7 +15,6 @@ let dataset = [
         lng: -8.042941142348049
     }, 
     {
-        placeId: "ChIJYy-3vTTzT0gRg7T8ipG2j8Q",
         title: "Skellig Six18 Distillery",
         address: "Valentia Rd, Garranearagh, Cahersiveen",
         county: "Kerry",
@@ -28,7 +26,6 @@ let dataset = [
         lng: -10.238846098232802
     }, 
     {
-        placeId: "ChIJVQfECZA_Q0gR3VpgLNHJyo0",
         title: "Blackwater Distillery",
         address: "Church Road, Ballinlevane East, Ballyduff, P51 C5C6",
         county: "Waterford",
@@ -40,7 +37,6 @@ let dataset = [
         lng: -8.052948943714533
     }, 
     {
-        placeId: "ChIJ6ZnJQ5UNZ0gRWKIwt2v3pC8",
         title: "Roe and Co Distiller",
         address: "92 James St, The Liberties, Dublin 8",
         county: "Dublin",
@@ -52,7 +48,6 @@ let dataset = [
         lng: -6.2852054614128985
     }, 
     {
-        placeId: "ChIJiwVFJ-OmZ0gRSExGUHw0rB0",
         title: "The Powerscourt Distiller",
         address: "Powerscourt Estate, Enniskerry, A98 A9T7",
         county: "Wicklow",
@@ -64,7 +59,6 @@ let dataset = [
         lng: -6.190472365118261
     }, 
     {
-        placeId: "ChIJuRsKpSMMZ0gRza0_qOTgHyk",
         title: "The Dublin Liberties Distillery",
         address: "33 Mill St, The Liberties, D08 V221",
         county: "Dublin",
@@ -76,7 +70,6 @@ let dataset = [
         lng: -6.275956805591871
     }, 
     {
-        placeId: "ChIJG9M36y1SREgRpMxzvgojIAs",
         title: "Clonakilty Distillery",
         address: "The Waterfront, Scartagh, Clonakilty, P85 N403",
         county: "Cork",
@@ -88,7 +81,6 @@ let dataset = [
         lng: -8.885773430778368
     }, 
         {
-        placeId: "ChIJn-j9XxJGZ0gRgqO5tN6peiE",
         title: "Slane Distillery",
         address: "N51, Slanecastle Demesne",
         county: "Meath",
@@ -100,7 +92,6 @@ let dataset = [
         lng: -6.558260212981522
     }, 
         {
-        placeId: "ChIJ5ylq_DkMZ0gRZVVjqVBQtgo",
         title: "Pearse Lyons Distillery",
         address: "121-122 James St, The Liberties, D08 ET27",
         county: "Dublin",
@@ -112,7 +103,6 @@ let dataset = [
         lng: -6.289195334427413
     }, 
         {
-        placeId: "ChIJPXBIo4NnXUgRkp8OgeLWonI",
         title: "Royal Oak Distillery",
         address: "Clorusk Lower, Royaloak",
         county: "Carlow",
@@ -124,7 +114,6 @@ let dataset = [
         lng:  -6.9801330093114675,
     }, 
         {
-        placeId: "ChIJV1WFtJITYUgR_ZeXdbXsUPg",
         title: "Rademon Estate Distillery",
         address: "65 Church Rd, Crossgar, Downpatrick BT30 9HR",
         county: "Down",
@@ -137,7 +126,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJkY-glu9HWUgRPkt35DRrkJs",
         title: "Connacht Whiskey Distillery",
         address: "Belleek, Ballina, F26 P932",
         county: "Mayo",
@@ -150,7 +138,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJJUwuzetvYUgRUpmY47AMqy8",
         title: "The Echlinville Distillery",
         address: "62 Gransha Rd, Kircubbin, Newtownards BT22 1AJ",
         county: "Down",
@@ -163,7 +150,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJU01Eqbz7T0gR2JFsZNceDfk",
         title: "Dingle Distillery",
         address: "Farranredmond, Dingle",
         county: "Kerry",
@@ -176,7 +162,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJFVLiJYq6XUgRIVuysk33PkY",
         title: "Kilbeggan Distillery",
         address: "Lower Main St, Aghamore, Kilbeggan",
         county: "Westmeath",
@@ -189,7 +174,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJP7C-J4SlXUgRmktFAlzpvEw",
         title: "Tullamore D.E.W.",
         address: "Kilbride Plaza, Bury Quay, Puttaghan, Tullamore",
         county: "Offaly",
@@ -202,7 +186,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJLZ2x_i5jQ0gRRoXtBzX0-iE",
         title: "Jameson Distillery",
         address: "Old Midleton Distillery, Distillery Walk, Midleton, P25 Y394",
         county: "Cork",
@@ -215,7 +198,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJ0UBQ46cPZ0gR5l2bcDiVXt0",
         title: "Teeling Whiskey Distillery",
         address: "13-17 Newmarket, The Liberties, Dublin 8, D08 KD91",
         county: "Dublin",
@@ -228,7 +210,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJdW92FOYuYEgRjm5TTLZJxB4",
         title: "Bushmills Distillery",
         address: "2 Distillery Rd, Bushmills BT57 8XH",
         county: "Antrim",
@@ -241,7 +222,6 @@ let dataset = [
     }, 
 
         {
-        placeId: "ChIJs0Ciwy4MZ0gRFFpl7MaNZAQ",
         title: "Jameson Distillery",
         address: "Bow St, Smithfield, Dublin 7, D07 N9VH",
         county: "Dublin",
