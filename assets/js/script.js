@@ -41,6 +41,7 @@ dataset.forEach((countyName) => {
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
         //document.getElementById("gridContent").innerHTML = "Test button click"; >>>>>> WORKS FINE
+        document.getElementById("gridContent").innerHTML = "";
         let value = e.currentTarget.text;
         let newDataset = dataset.filter(distillery => distillery.county === value);
         displayDataset(newDataset);
