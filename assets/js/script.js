@@ -32,31 +32,22 @@ let data = dataset;
 let defaultDataset = data.filter(distillery => distillery.county === "Dublin")
 displayDataset(defaultDataset);
 
-// <------------------ Hover filter menu (gridView) ------------------>
+// <------------------ Hover menu filter ------------------>
 
-
+// Filter distilleries by county on click
 dataset.forEach((countyName) => {
     let filterListItem = document.createElement("a");
     filterListItem.innerHTML = countyName.county;
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
-        //document.getElementById("gridContent").innerHTML = "Test button click"; >>>>>> WORKS FINE
+        // Remove defaultDataset from gridContent
         document.getElementById("gridContent").innerHTML = "";
         let value = e.currentTarget.text;
         let newDataset = dataset.filter(distillery => distillery.county === value);
         displayDataset(newDataset);
-        //this.removeChild(defaultDataset);
     });
     document.getElementById("filterCounties").append(filterListItem);
-    //document.getElementById("gridContent").remove(defaultDataset);
 });
-
-
-// Resource: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
-/* dataset.forEach((countyName) => {
-    document.getElementById("filterCounties").innerHTML +=
-    `<a class="filterList">${countyName.county}</a>`
-});*/
 
 // <------------------ Grid view function of all distilleries ------------------>
 
@@ -77,49 +68,3 @@ function displayDataset(dataset) {
     //displayDataset(gridContent); 
     console.log(gridContent);
 };
-
-// <------------------ Filter distilleries by county ------------------>
-
-/*let newFilterList = document.getElementsByClassName("filterList");
-
-for (let i = 0; i < newFilterList.length; i++) {
-    newFilterList[i].addEventListener("click", function(e) {
-    let value = e.currentTarget.value
-    let newDataset = dataset.filter(distillery => distillery.county === value)
-    displayDataset(newDataset)
-    });
-}; */ 
-
-
-
-
-
-
-
-
-
-
-// <------------------------------------------ OLD CODE
-/*
-           let value = e.currentTarget.value;
-            let newDataset = dataset.filter(distillery => distillery.county === value);
-            document.getElementById("gridCOntent").displayDataset(newDataset); 
-
-
-
-            dataset.forEach((countyName) => {
-    let filterListItem = document.createElement("a");
-    filterListItem.innerHTML = countyName.county;
-    filterListItem.classList.add("filterList");
-    let newFilterList = document.getElementsByClassName("filterList");
-    for (let i = 0; i < newFilterList.length; i++) {
-    newFilterList[i].addEventListener("click", function(e){ 
-        //document.getElementById("gridContent").innerHTML = "Test button click"; >>>>>> WORKS FINE
-        let value = e.currentTarget.text;
-        let newDataset = dataset.filter(distillery => distillery.county === value);
-        displayDataset(newDataset);
-    });
-}
-    document.getElementById("filterCounties").appendChild(filterListItem);
-    document.getElementById("gridContent").appendChild(e);
-}); */
