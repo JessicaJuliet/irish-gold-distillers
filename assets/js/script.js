@@ -1,7 +1,6 @@
 // <------------------ Tab Buttons ------------------>
 
-// Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp 
-
+// Resource: Code taken from https://www.w3schools.com/howto/howto_js_tabs.asp 
 document.getElementById("defaultOpen").click();
 
 function openSearch(evt, searchView) {
@@ -25,15 +24,6 @@ function openSearch(evt, searchView) {
   evt.currentTarget.className += " active";
 }
 
-// <------------------ Hover filter menu (gridView) ------------------>
-
-// Resource: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
-
-dataset.forEach((countyName) => {
-    document.getElementById("filterCounties").innerHTML +=
-        `<a onclick="displayFilter()">${countyName.county}</a>`
-}); 
-
 // <------------------ Default grid view of distilleries ------------------>
 
 // Rename dataset to 'data' for naming clarity
@@ -42,11 +32,35 @@ let data = dataset;
 let defaultDataset = data.filter(distillery => distillery.county === "Dublin")
 displayDataset(defaultDataset);
 
+// <------------------ Hover filter menu (gridView) ------------------>
+
+
+dataset.forEach((countyName) => {
+    let filterListItem = document.createElement("a");
+    filterListItem.innerHTML = countyName.county;
+    filterListItem.classList.add("filterList");
+    filterListItem.addEventListener("click", function(e){ 
+        //document.getElementById("gridContent").innerHTML = "Test button click"; >>>>>> WORKS FINE
+        let value = e.currentTarget.text;
+        let newDataset = dataset.filter(distillery => distillery.county === value);
+        displayDataset(newDataset);
+        //this.removeChild(defaultDataset);
+    });
+    document.getElementById("filterCounties").append(filterListItem);
+    //document.getElementById("gridContent").remove(defaultDataset);
+});
+
+
+// Resource: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+/* dataset.forEach((countyName) => {
+    document.getElementById("filterCounties").innerHTML +=
+    `<a class="filterList">${countyName.county}</a>`
+});*/
+
 // <------------------ Grid view function of all distilleries ------------------>
 
 // Function to display distillery data
-// Used forEach loop here, other method did not work
- function displayDataset(dataset) {
+function displayDataset(dataset) {
     let gridContent = dataset.forEach((distillery) => {
     document.getElementById("gridContent").innerHTML += 
     `<div class="col-xs-12 col-md-5 gridDiv">` +
@@ -58,82 +72,53 @@ displayDataset(defaultDataset);
         `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
     `</div>`;
-    }) 
+    })
+    //displayDataset(gridContent); 
     console.log(gridContent);
 };
 
 // <------------------ Filter distilleries by county ------------------>
- 
-//onclick = function() in html
 
-function displayFilter(dataset) {
-    document.getElementById("filterCounties").addEventListener("click", function(e){
-        let value = e.currentTarget.value
-        let newDataset = dataset.filter(distillery => distillery.county === value)
-        displayDataset(newDataset)
-    })
-};
+/*let newFilterList = document.getElementsByClassName("filterList");
 
-
+for (let i = 0; i < newFilterList.length; i++) {
+    newFilterList[i].addEventListener("click", function(e) {
+    let value = e.currentTarget.value
+    let newDataset = dataset.filter(distillery => distillery.county === value)
+    displayDataset(newDataset)
+    });
+}; */ 
 
 
 
 
 
 
-/* OLD CODE
 
- dataset.forEach((distillery) => {
-document.getElementById("gridContent").innerHTML += 
-`<div class="col-xs-12 col-md-5 gridDiv">` +
-    `<h4>${distillery.title}</h4><br>` + 
-    `<p><strong>Address: </strong>${distillery.address}</p>` +
-    `<p><strong>County: </strong>${distillery.county}</p>` +
-    `<p class="toursGrid"><strong>Tours: </strong>${distillery.tours}</p>` +
-    `<P><strong>Description: </strong>${distillery.description}</P>` +
-    `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
-    `<br><img class="gridImage" src="${distillery.photo}">` +
-`</div>`;
+
+
+
+// <------------------------------------------ OLD CODE
+/*
+           let value = e.currentTarget.value;
+            let newDataset = dataset.filter(distillery => distillery.county === value);
+            document.getElementById("gridCOntent").displayDataset(newDataset); 
+
+
+
+            dataset.forEach((countyName) => {
+    let filterListItem = document.createElement("a");
+    filterListItem.innerHTML = countyName.county;
+    filterListItem.classList.add("filterList");
+    let newFilterList = document.getElementsByClassName("filterList");
+    for (let i = 0; i < newFilterList.length; i++) {
+    newFilterList[i].addEventListener("click", function(e){ 
+        //document.getElementById("gridContent").innerHTML = "Test button click"; >>>>>> WORKS FINE
+        let value = e.currentTarget.text;
+        let newDataset = dataset.filter(distillery => distillery.county === value);
+        displayDataset(newDataset);
+    });
+}
+    document.getElementById("filterCounties").appendChild(filterListItem);
+    document.getElementById("gridContent").appendChild(e);
 }); */
-
-/* function displayDataset (dataset) {
-    let gridContent = dataset.map((distillery) => (distillery)["title"]) */
-
-
-
-
-// <------------------ TEST CODE TO REMOVE DUPLICATE FILTER ITEMS ------------------>
-
-/*dataset.forEach((countyName) => {
-    let result = [];
-    document.getElementById("filterCounties").innerHTML +=
-    `<a>${countyName.county}</a>`
-    if (result.indexOf(countyName) === -1) 
-    result.push(countyName);
-}); */
-
-/* dataset.forEach((countyName) => {
-    document.getElementById("filterCounties").innerHTML +=
-    `<a>${countyName.county}</a>`
-    let unique = [];
-    if(!unique.includes(countyName)){
-     unique.push(countyName.county) 
-    };
-}); */
-
-
-/* function getUnique(array){
-        var uniqueArray = [];
-        
-        // Loop through array values
-        for(var value of array){
-            if(uniqueArray.indexOf(value) === -1){
-                uniqueArray.push(value);
-            }
-        }
-        return uniqueArray;
-    }
-
-    var counties = dataset;
-    var uniqueNames = getUnique(counties.values);
-    console.log(uniqueNames.values); */
