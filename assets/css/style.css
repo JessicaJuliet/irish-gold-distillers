@@ -389,8 +389,8 @@ footer .fa {
 
 /* Image section */
 @media only screen and (max-width: 600px){
-    .imageSection .img-fluid {
-        padding-bottom: 20px;
+    .imageOne .img-fluid {
+        padding-bottom: 60px;
     }
 }
 
