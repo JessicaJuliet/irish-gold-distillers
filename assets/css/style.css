@@ -342,8 +342,16 @@ footer .fa {
 }
 
 @media only screen and (max-width: 600px){
-    .hero-text  h2{
+    .hero-text  h1{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .hero-text  h2{
+        font-size: 170%;
+        font-weight: bold;
+        margin-top: 70px;
     }
 }
 
@@ -385,3 +393,10 @@ footer .fa {
         padding-bottom: 20px;
     }
 }
+
+/*.county {
+    background-color: darkgrey;
+    width: 35%;
+    padding: 5px;
+    border-radius: 3px;
+} */
