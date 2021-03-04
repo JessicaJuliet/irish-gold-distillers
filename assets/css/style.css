@@ -355,7 +355,7 @@ footer .fa {
 }
 
 @media only screen and (max-width: 600px){
-    .hero-text  h2{
+    .hero-text h2{
         font-size: 170%;
         font-weight: bold;
         margin-top: 70px;
@@ -376,8 +376,8 @@ footer .fa {
 }
 
 @media only screen and (max-width: 600px){
-    .tab button {
-        float: left;
+    .tab {
+        margin-right: 95px;
     }
 }
 

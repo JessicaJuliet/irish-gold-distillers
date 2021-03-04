@@ -34,13 +34,14 @@ displayDataset(defaultDataset);
 
 // <------------------ Hover menu filter ------------------>
 
+
 // Filter distilleries by county on click
 dataset.forEach((countyName) => {
     let filterListItem = document.createElement("a");
     filterListItem.innerHTML = countyName.county;
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
-        // Remove defaultDataset from gridContent
+        // Clear defaultDataset from gridContent
         document.getElementById("gridContent").innerHTML = "";
         let value = e.currentTarget.text;
         let newDataset = dataset.filter(distillery => distillery.county === value);
@@ -55,12 +56,12 @@ dataset.forEach((countyName) => {
 function displayDataset(dataset) {
     let gridContent = dataset.forEach((distillery) => {
     document.getElementById("gridContent").innerHTML += 
-    `<div class="col-xs-12 col-md-5 gridDiv">` +
+    `<div class="col-xs-10 col-md-5 gridDiv">` +
         `<h4>${distillery.title}</h4><br>` + 
-        `<p><strong>Address: </strong>${distillery.address}</p>` +
-        `<p><strong>County: </strong>${distillery.county}</p>` +
-        `<p class="toursGrid"><strong>Tours: </strong>${distillery.tours}</p>` +
-        `<P><strong>Description: </strong>${distillery.description}</P>` +
+        `<p><strong><i class="fa fa-home"></i> Address: </strong>${distillery.address}</p>` +
+        `<p class="county"><strong>County: </strong>${distillery.county}</p>` +
+        `<p><strong><i class="fa fa-times-circle"></i> Tours: </strong>${distillery.tours}</p>` +
+        `<P><strong><i class="fa fa-info-circle"></i> Description: </strong>${distillery.description}</P>` +
         `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
     `</div>`;
