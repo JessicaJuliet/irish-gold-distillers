@@ -34,9 +34,24 @@ displayDataset(defaultDataset);
 
 // <------------------ Hover menu filter ------------------>
 
+// Remove duplicate counties
+/*var uniqueList = dataset;
+$.each(uniqueList.county, function(i, el){
+    if($.inArray(el, uniqueList) === -1) uniqueList.push(el);
+}); */
+
+
+let countyList = dataset;
+let uniqueCountyList = [];
+
+for (var i = 0; i < countyList.length; i++) {
+    console.log(countyList[i])
+}; 
+
+
 
 // Filter distilleries by county on click
-dataset.forEach((countyName) => {
+uniqueCountyList.forEach((countyName) => {
     let filterListItem = document.createElement("a");
     filterListItem.innerHTML = countyName.county;
     filterListItem.classList.add("filterList");
@@ -58,8 +73,8 @@ function displayDataset(dataset) {
     document.getElementById("gridContent").innerHTML += 
     `<div class="col-xs-10 col-md-5 gridDiv">` +
         `<h4>${distillery.title}</h4><br>` + 
-        `<p><strong><i class="fa fa-home"></i> Address: </strong>${distillery.address}</p>` +
         `<p class="county"><strong>County: </strong>${distillery.county}</p>` +
+        `<p><strong><i class="fa fa-home"></i> Address: </strong>${distillery.address}</p>` +
         `<p><strong><i class="fa fa-times-circle"></i> Tours: </strong>${distillery.tours}</p>` +
         `<P><strong><i class="fa fa-info-circle"></i> Description: </strong>${distillery.description}</P>` +
         `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
@@ -69,3 +84,26 @@ function displayDataset(dataset) {
     //displayDataset(gridContent); 
     console.log(gridContent);
 };
+
+
+
+
+
+
+
+
+
+/* Filter distilleries by county on click
+uniqueList.forEach((countyName) => {
+    let filterListItem = document.createElement("a");
+    filterListItem.innerHTML = countyName.county;
+    filterListItem.classList.add("filterList");
+    filterListItem.addEventListener("click", function(e){ 
+        // Clear defaultDataset from gridContent
+        document.getElementById("gridContent").innerHTML = "";
+        let value = e.currentTarget.text;
+        let newDataset = dataset.filter(distillery => distillery.county === value);
+        displayDataset(newDataset);
+    });
+    document.getElementById("filterCounties").append(filterListItem);
+}); */
