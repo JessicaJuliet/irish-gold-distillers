@@ -39,21 +39,31 @@ displayDataset(defaultDataset);
 $.each(uniqueList.county, function(i, el){
     if($.inArray(el, uniqueList) === -1) uniqueList.push(el);
 }); */
+    /*if (countyListItem < countyDataset.length) {
+        uniqueCountyArray.push(countyListItem);
+    };*/
 
+let countyDataset = dataset;
+let uniqueCountyArray = [];
 
-let countyList = dataset;
-let uniqueCountyList = [];
-
-for (var i = 0; i < countyList.length; i++) {
-    console.log(countyList[i])
-}; 
-
+countyDataset.forEach((countyList) => {
+    let countyListItem = countyList.county;
+    //console.log(countyListItem);
+    for (i = 0; i < countyListItem.length; i++) {
+        if (uniqueCountyArray.includes(countyListItem)) {
+            continue;
+        } else {
+            uniqueCountyArray.push(countyListItem);
+        }
+     console.log(uniqueCountyArray);
+    }
+});
 
 
 // Filter distilleries by county on click
-uniqueCountyList.forEach((countyName) => {
+uniqueCountyArray.forEach((countyName) => {
     let filterListItem = document.createElement("a");
-    filterListItem.innerHTML = countyName.county;
+    filterListItem.innerHTML = countyName;
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
         // Clear defaultDataset from gridContent
