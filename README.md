@@ -173,3 +173,24 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 * Font Awesome
 
     * Sourced icons on website from Font Awesome
+
+
+
+## Credits
+
+### Code 
+1. Sourced code for navbar from Bootstrap - https://getbootstrap.com/docs/4.0/components/navbar/
+2. Sourced code for icons from Font Awesome - https://fontawesome.bootstrapcheatsheets.com/
+3. Sourced code for Leaflet.js map from Leaflet - https://leafletjs.com/examples/quick-start/ 
+4. Obtained content for History section from Drinks Ireland - https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument
+5. Code for tab buttons was taken from W3Schools - https://www.w3schools.com/howto/howto_js_tabs.asp 
+
+All other minor guiding resoures were referenced within the code. 
+
+### Media
+* The Irish Gold Distiller's logo and favicon were created by me using Adobe Illustrator
+* The icons used on the site were sourced from Font Awesome
+* The images across the website were obtained from Unsplash and Irish Whiskey 360 
+
+### Acknowledgements
+*  Thank you to the tutors and my mentor at the Code Institute for helping me to tackle all the challenges which JavaScript threw my way
