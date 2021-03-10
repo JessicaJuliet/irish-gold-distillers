@@ -174,8 +174,6 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 
     * Sourced icons on website from Font Awesome
 
-
-
 ## Credits
 
 ### Code 
@@ -184,6 +182,7 @@ The images for each of the distilleries were taken from [Irish Whiskey 360](http
 3. Sourced code for Leaflet.js map from Leaflet - https://leafletjs.com/examples/quick-start/ 
 4. Obtained content for History section from Drinks Ireland - https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument
 5. Code for tab buttons was taken from W3Schools - https://www.w3schools.com/howto/howto_js_tabs.asp 
+6. Hover dropdown menu sourced from W3Schools - https://www.w3schools.com/howto/howto_css_dropdown.asp 
 
 All other minor guiding resoures were referenced within the code. 
 
