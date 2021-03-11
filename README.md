@@ -15,10 +15,9 @@
         * [Logo](#logo)
         * [Stock Images](#stock-images)
         * [Distillery Imager](#distillery-images)
-* Features
-    * Features
-    * Existing Features
-    * Features Left to Implement
+* [Features](#features)
+    * [Existing Features](#exisiting-features)
+    * [Features Left to Implement](#features-left-to-implement)
 * [Technologies Used](#technologies-used)
 * Testing
     * Automated Testing
@@ -35,10 +34,10 @@
     * GitHub Project Creation
     * GitHub Pages
     * Run Locally
-* Credits
-    * Code and Guiding Resources
-    * Media
-    * Acknowledgements
+* [Credits](#credits)
+    * [Code](#code)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
 
 ## Purpose
 
@@ -119,6 +118,51 @@ The website uses strong and impactful whiskey imagery to capture the users inter
 #### Distillery Images
 
 The images for each of the distilleries were taken from [Irish Whiskey 360](https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/), as well as their descriptive content. 
+
+## Features
+
+The Irish Gold Distillers website is an interactive single page website divided into seven key sections. Each section is described in greater detail below, outlining their features and how they meet the user stories identified at the beginning of the website build.  
+
+### Existing Features
+
+#### Section 1 - Navbar
+
+The navbar is fully responsive and collapses down into a hamburger menu on smaller devices. It provides a short list of links to the key sections on the website. 
+
+As the website is short and requires minimal scrolling, the navbar is not fixed to the top. Instead greater focus is given to providing the user with as much screen display as possible for its interactive elements.
+
+> As a first-time visitor, I want to navigate through the website easily on a mobile and desktop device
+
+#### Section 2 - Hero Image & CTA
+
+The hero image is a key component of the website as it helps the user to quickly identify what product the site is related to and the H1 and H2 headings overlaying the image provide the user with a succinct description of its key functionality "The Home of Irish Whiskey Distilleries". The CTA directs the user straight to its interactive search functionality.
+
+> As a first-time visitor, I want to be able to quickly identify that the website houses all the whiskey distilleries in Ireland
+
+#### Section 3 - Grid View 
+
+> As a returning visitor, I want to explore the whiskey distilleries across Ireland, read their description and see associated imagery so I know what to expect before visiting
+
+#### Section 4 - Map View
+
+
+> As a returning visitor, I want to easily find the location of Ireland's whiskey distilleries on an interactive map
+
+#### Section 5 - History
+
+For website users looking for delve a little deeper into Ireland's whiskey distilleries, this section provides them with a short but insightful description of whiskey distilleries in Ireland. 
+
+> As a frequent visitor, I want to read about the history of Ireland's whiskey distilleries
+
+#### Section 6 - Images
+
+> As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery which represent quality products
+
+#### Section 7 - Footer
+
+The Footer highlights the website's contact information, links and logo. These were included in the Footer as this is the location they're most commonly expected by a website user. The links allow the user to go back to the section of the page they wish without having to scroll back to the top. 
+
+### Features Left to Implement
 
 ## Technologies Used
 
