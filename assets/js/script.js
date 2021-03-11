@@ -32,16 +32,7 @@ let data = dataset;
 let defaultDataset = data.filter(distillery => distillery.county === "Dublin")
 displayDataset(defaultDataset);
 
-// <------------------ Hover menu filter ------------------>
-
-// Remove duplicate counties
-/*var uniqueList = dataset;
-$.each(uniqueList.county, function(i, el){
-    if($.inArray(el, uniqueList) === -1) uniqueList.push(el);
-}); */
-    /*if (countyListItem < countyDataset.length) {
-        uniqueCountyArray.push(countyListItem);
-    };*/
+// <------------------ Remove duplicate counties from filter menu ------------------>
 
 let countyDataset = dataset;
 let uniqueCountyArray = [];
@@ -59,6 +50,7 @@ countyDataset.forEach((countyList) => {
     }
 });
 
+// <------------------ Hover menu filter ------------------>
 
 // Filter distilleries by county on click
 uniqueCountyArray.forEach((countyName) => {
@@ -94,26 +86,3 @@ function displayDataset(dataset) {
     //displayDataset(gridContent); 
     console.log(gridContent);
 };
-
-
-
-
-
-
-
-
-
-/* Filter distilleries by county on click
-uniqueList.forEach((countyName) => {
-    let filterListItem = document.createElement("a");
-    filterListItem.innerHTML = countyName.county;
-    filterListItem.classList.add("filterList");
-    filterListItem.addEventListener("click", function(e){ 
-        // Clear defaultDataset from gridContent
-        document.getElementById("gridContent").innerHTML = "";
-        let value = e.currentTarget.text;
-        let newDataset = dataset.filter(distillery => distillery.county === value);
-        displayDataset(newDataset);
-    });
-    document.getElementById("filterCounties").append(filterListItem);
-}); */
