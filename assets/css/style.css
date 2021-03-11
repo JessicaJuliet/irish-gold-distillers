@@ -342,9 +342,16 @@ footer .fa {
 
 /* Hero image section  */
 @media only screen and (max-width: 600px){
+    .hero-image {
+        min-height: 450px;
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
     .hero-text {
         left: 10px;
-        top: 400px;
+        top: 40px;
     }
 }
 
@@ -358,7 +365,7 @@ footer .fa {
     .hero-text h2{
         font-size: 170%;
         font-weight: bold;
-        margin-top: 70px;
+        margin-top: 300px;
     }
 }
 
