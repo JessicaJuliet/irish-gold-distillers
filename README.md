@@ -49,6 +49,8 @@ Please note, this website was created for the Code Institute’s Milestone Proje
 
 Please see the [Irish Gold Distillers](https://jessicajuliet.github.io/irish-gold-distillers/) live website.
 
+![Irish Gold Distiller's website on different device sizes](assets/img/iamresponsive.png)
+
 ## User Experience Design
 
 ### User stories
