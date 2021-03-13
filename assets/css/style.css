@@ -236,6 +236,9 @@ p {
 
 .website-btn:hover {
     background-color: #e09900;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .gridImage {
