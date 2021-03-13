@@ -23,12 +23,11 @@
         * Responsiveness
         * W3C Validator Tools
         * Problems Encountered
-    * Manual Testing
-        * User Story Testing
-        * Devices
-        * Browsers
-        * CI Peer Code Review
-        * Issues Encountered
+    * [Manual Testing](#manual-testing)
+        * [User Story Testing](#user-story-testing)
+        * [Devices](#devices)
+        * [Browsers](#browsers)
+        * [Issues Encountered](#issues-encountered)
 * [Deployment](#deployment)
     * [GitHub Project Creation](#github-project-creation)
     * [GitHub Pages](#github-pages)
@@ -283,7 +282,7 @@ The Footer highlights the website's contact information, links and logo. These w
 
 #### User Story Testing
 
-A manual review of the user stories was carried out where automation was not possible. Please view these here.
+A manual review of the user stories was carried out where automation was not possible. Please view these [here]().
 
 #### Devices
 
@@ -303,7 +302,6 @@ The website was tested across different browsers including Google Chrome and Saf
 Overall the website worked well across all device types and browsers, however a few minor issues were encountered:
 
 * Button styling on the iPhone XS Max and the Safari browser appeared differently to that set in the CSS, this was resolved by adding some extra code to set the appearance property to none and use -WebKit- and -Moz- vendor prefixes
-
 
 ## Deployment
 

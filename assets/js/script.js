@@ -79,7 +79,7 @@ function displayDataset(dataset) {
         `<p><strong><i class="fa fa-home"></i> Address: </strong>${distillery.address}</p>` +
         `<p><strong><i class="fa fa-times-circle"></i> Tours: </strong>${distillery.tours}</p>` +
         `<P><strong><i class="fa fa-info-circle"></i> Description: </strong>${distillery.description}</P>` +
-        `<a type="button" class="btn website-btn" href="${distillery.website}" target="_blank">Visit website</a><br>` +
+        `<a type="button" class="btn websiteButton" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
     `</div>`;
     })
