@@ -41,9 +41,9 @@
 
 ## Purpose
 
-According to [The Irish Whiskey Association](https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument), whiskey distilleries in Ireland have grown from just four in 2010 to 32 in 2019 demonstrating the scale of Ireland's Whiskey Renaissance. The purpose of the Irish Gold Distillers website is to satisfy the demand for Irish whiskey products by providing the end user with a fully responsive and interactive website showcasing the whiskey distilleries across the country. 
+According to [The Irish Whiskey Association](https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument), whiskey distilleries in Ireland have grown from just four in 2010 to 32 in 2019, demonstrating the scale of Ireland's Whiskey Renaissance. The purpose of the Irish Gold Distillers website is to satisfy the demand for, and interest in, Irish whiskey products by providing the end user with a fully responsive and interactive website showcasing the whiskey distilleries across the country. 
 
-Furthermore, I was inspired to create this website when I was travelling around the west coast of Ireland during the summer of 2020 and I struggled to find a site which clearly displayed all of the whiskey distilleries in the country. I noted this as a good opportunity to fill the gap!
+I was inspired to create this website when I was travelling around the west coast of Ireland during the summer of 2020 and I struggled to find a website which housed and clearly displayed a list of all the whiskey distilleries in Ireland and their location. At that moment, I noted this as a great opportunity to fill the gap.
 
 Please note, this website was created for the Code Institute’s Milestone Project 2 as part of their Diploma in Full Stack Software Development. It was developed using the knowledge gained from the HTML, CSS, User Centric Design, JavaScript and Interactive Front-end Development modules.
 
