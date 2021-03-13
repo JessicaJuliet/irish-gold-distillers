@@ -104,6 +104,7 @@ p {
 
 /* Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
 .tab button {
+    background-color: #eceaea;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
