@@ -29,10 +29,10 @@
         * Browsers
         * CI Peer Code Review
         * Issues Encountered
-* Deployment
-    * GitHub Project Creation
-    * GitHub Pages
-    * Run Locally
+* [Deployment](#deployment)
+    * [GitHub Project Creation](#github-project-creation)
+    * [GitHub Pages](#github-pages)
+    * [Run Locally](#run-locally)
 * [Credits](#credits)
     * [Code](#code)
     * [Media](#media)
@@ -274,6 +274,39 @@ The Footer highlights the website's contact information, links and logo. These w
 * [JSHint](https://jshint.com/)
 
     * JSHint was regularly used to detect errors and potential problems in the JavaScript code
+
+## Deployment
+
+### GitHub Project Creation
+
+The Irish Gold Distillers project was created using the following steps:
+
+1. Click the green 'New' button in my GitHub repositories section
+2. Select the Code Institute template
+3. Name repository "Irish Gold Distillers" and give it a description
+4. Set repository to 'Public' to ensure the commit history is visible
+5. Click 'Create repository'
+
+### GitHub Pages
+
+The website was deployed using these steps:
+
+1. Open the Irish Gold Distillers repository in GitHub
+2. Navigate to the 'Settings' tab at the top
+3. Scroll down to the 'GitHub Pages' section
+4. Select 'Branch Master' as the source
+5. Click save
+6. Click link to live deployed website
+
+### Run Locally
+
+To run the code locally, follow these steps:
+
+1. Navigate to the Irish Gold Distiller's repository
+2. Click the 'Code' drop down menu
+3. Select to copy the GitHub URL from HTTPS box or 'Download Zip'
+4. Open a new terminal and type the 'git clone' command in the CLI and paste copied URL
+5. Alternatively, click 'Open with GitHub Desktop' and follow the steps to complete the clone
 
 ## Credits
 
