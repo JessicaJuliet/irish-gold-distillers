@@ -18,7 +18,7 @@ p {
 }
 
 .navItem {
-    color: white !important;
+    color: #fafafa !important;
 }
 
 .navItem:hover {
@@ -65,7 +65,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     background-color: #231f20;
-    color: white;
+    color: #fafafa;
     min-height: 50px;
     font-size: 20px;
     font-weight: 700;
@@ -136,7 +136,7 @@ p {
 /* Resource: Code sourced from W3C and custom styling added - https://www.w3schools.com/howto/howto_css_dropdown.asp */
 .hoverButton {
     background-color: #231f20;
-    color: white;
+    color: #fafafa;
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     border-radius: 4px;
@@ -188,7 +188,8 @@ p {
     background-color: #eceaea;
     border-radius: 4px;
     height: 750px;
-    margin: 70px 60px 0px 30px;
+    /*margin: 70px 60px 0px 30px;*/
+    margin: 70px 40px 0 15px;
     float: left;
     /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -202,7 +203,7 @@ p {
 
 .county {
     background-color: rgba(169, 169, 169, 0.35);
-    width: 50%;
+    width: 40%;
     padding: 5px;
     border-radius: 3px;
 }
@@ -217,7 +218,7 @@ p {
 
 .website-btn {
     background-color: #231f20;
-    color: white;
+    color: #fafafa;
     padding: 10px;
 }
 
@@ -229,7 +230,8 @@ p {
     width: 100%; 
 }
 
-/*------------------ Leaflet.js Map ------------------*/
+/*------------------ Leaflet Map ------------------*/
+
 #map {
     min-height: 600px;
     width: 100%;
@@ -245,44 +247,34 @@ p {
     margin-bottom: 0px;
 }
 
-
-
-
-
-
-
-
-
-
 /*------------------ History Section ------------------*/
 
-.history-section {
+.historySection {
     background-color: #231f20;
     padding: 120px 0;
     color: #fafafa;
 }
 
-.history-section h2 {
+.historySection h2 {
     color: #e09900;
     padding-bottom: 10px;
 }
 
-
 /*------------------ Image Section ------------------*/
 
 .imageSection {
-    background-color: #fafafa;
     padding: 120px 0px;
 }
 
 /*------------------ Footer ------------------*/
+
 .footer {
     background-color: #231f20;
     min-height: 300px;
     padding: 70px 0px;
 }
 
-/* Resource: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu */
+/* Resource: List menu - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu */
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -296,7 +288,7 @@ li {
 }
 
 li a {
-    color: white;
+    color: #fafafa;
 }
 
 .footer li a:hover {
@@ -310,20 +302,20 @@ li a {
 }
 
 .contact a {
-    color: white;
+    color: #fafafa;
 }
 
 footer p {
-    color: white;
-}
-
-footer .fa-phone-square {
-    font-size: 20px;
+    color: #fafafa;
 }
 
 footer .fa {
     padding-right: 5px;
     color: #e09900;
+}
+
+footer .fa-phone-square {
+    font-size: 20px;
 }
 
 /*------------------ Media Queries ------------------*/
