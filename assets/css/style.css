@@ -189,7 +189,7 @@ p {
     border-radius: 4px;
     height: 750px;
     /*margin: 70px 60px 0px 30px;*/
-    margin: 70px 40px 0 15px;
+    margin: 70px 40px 0 0px;
     float: left;
     /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -330,7 +330,7 @@ footer .fa-phone-square {
 /* Hero image section */
 @media only screen and (max-width: 600px){
     .hero-image {
-        min-height: 550px;
+        min-height: 600px;
         min-width: 100%;
     }
 } 
@@ -352,7 +352,7 @@ footer .fa-phone-square {
     .hero-text h2{
         font-size: 170%;
         font-weight: bold;
-        margin-top: 380px;
+        margin-top: 400px;
     }
 }
 

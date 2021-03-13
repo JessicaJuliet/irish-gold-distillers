@@ -1,6 +1,4 @@
-/* Resource: Dataset - https://oralytics.com/2020/02/24/irish-whiskey-distilleries-data-set/ */
 /* Resource: Photos and description content were sourced from - https://irishwhiskey360.com/discover-irelands-whiskey-distilleries/ */
-/* Resource: Google PlaceId: https://developers.google.com/places/web-service/place-id, lat and lng: Google Maps */
 
 let dataset = [
     {
