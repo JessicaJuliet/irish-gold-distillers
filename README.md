@@ -198,20 +198,20 @@ The Footer highlights the website's contact information, links and logo. These w
 
 ### Features Left to Implement
 
-* A submission form for distillery owners to implement their details if they're not included on the website and wish to before
-* Include a full list of distilleries in Ireland and update this as and when more come about
+* A submission form for distillery owners to implement their details if they're not already included on the website and wish to be listed
+* Include a full comprehensive list of distilleries in Ireland and update this as and when more come about
 
 ## Technologies Used
 
-* GitHub
+* [GitHub](https://github.com/)
     
     * GitHub is the hosting site used to store the source code for the Website
 
-* Git
+* [Git](https://git-scm.com/)
 
     * Git was used as the version control software to add, commit and push code to the GitHub repository
 
-* Gitpod
+* [Gitpod](https://gitpod.io/workspaces/)
 
     * Gitpod was used as the development environment to write my code
 
@@ -227,33 +227,53 @@ The Footer highlights the website's contact information, links and logo. These w
 
     * JavaScript was used to create interactive elements on the website
 
-* Bootstrap
+* [Bootstrap](https://getbootstrap.com/)
 
     * Bootstrap was used throughout the website for the grid layout, navbar and buttons
 
-* balsamiq
+* [balsamiq](https://balsamiq.com/wireframes/)
 
     * balsamiq was used to create low-fidelity wireframes of the website
 
-* Adobe Illustrator
+* [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
 
     * Illustrator was used to create the logo and favicon for the website
 
-* Google Fonts
+* [Google Fonts](https://fonts.google.com/)
 
     * Google Fonts was used to find, sample and import fonts for the logo and website
 
-* TinyPNG
+* [TinyPNG](https://tinypng.com/)
 
     * TinyPNG was used to compress all images before uploading them to Gitpod to ensure a good website speed
 
-* Google Chrome Developer Tools
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 
     * Chrome Developer Tools was used to test the site's responsiveness on different devices and to debug the code
 
-* Font Awesome
+* [Font Awesome](https://fontawesome.com/)
 
     * Sourced icons on website from Font Awesome
+
+* [Responsinator](https://www.responsinator.com/)
+
+    * Responsinator was used to test the website's responsiveness across different screen sizes
+
+* [Am I Responsive](http://ami.responsivedesign.is/#)
+
+    * Am I Responsive was used to test the website's responsiveness across different screen sizes
+
+* [W3C Markup Validation Service](https://validator.w3.org/)
+
+    * The W3C Markup validator was used regularly to check for any errors in the HTML on the site
+
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+    * The W3C CSS validator was used regularly to check for any errors in the CSS on the site
+
+* [JSHint](https://jshint.com/)
+
+    * JSHint was regularly used to detect errors and potential problems in the JavaScript code
 
 ## Credits
 
