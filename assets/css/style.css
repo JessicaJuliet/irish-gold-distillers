@@ -110,8 +110,11 @@ p {
     border-radius: 4px;
     font-weight: 400;
     float: right;
-    margin-left: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.mapTab {
+    margin-left: 10px;
 }
 
 .tab button:hover {
@@ -363,11 +366,27 @@ footer .fa-phone-square {
     }
 }
 
-/* Tab section */
+/* Tab section 
+
+/* Mobile L */
 @media only screen and (max-width: 600px){
     .tab {
         padding-top: 30px;
-        margin-right: 40px;
+        margin-right: 90px;
+    }
+}
+
+/* Mobile M */
+@media only screen and (max-width: 375px){
+    .tab {
+        margin-right: 55px;
+    }
+}
+
+/* Mobile S */
+@media only screen and (max-width: 320px){
+    .tab {
+        margin-right: 0px;
     }
 }
 
