@@ -275,6 +275,36 @@ The Footer highlights the website's contact information, links and logo. These w
 
     * JSHint was regularly used to detect errors and potential problems in the JavaScript code
 
+## Testing
+
+### Automated Testing
+
+### Manual Testing
+
+#### User Story Testing
+
+A manual review of the user stories was carried out where automation was not possible. Please view these here.
+
+#### Devices
+
+The website was tested on different physical devices with varying screen sizes including:
+
+* Apple iPhone XS Max
+* Samsung A71
+* Apple iPad (6th generation)
+* Macbook 12
+
+#### Browsers
+
+The website was tested across different browsers including Google Chrome and Safari. It rendered well on both browsers and worked as intended, but with some styling issues on Safari.
+
+#### Issues Encountered
+
+Overall the website worked well across all device types and browsers, however a few minor issues were encountered:
+
+* Button styling on the iPhone XS Max and the Safari browser appeared differently to that set in the CSS, this was resolved by adding some extra code to set the appearance property to none and use -WebKit- and -Moz- vendor prefixes
+
+
 ## Deployment
 
 ### GitHub Project Creation
@@ -316,7 +346,8 @@ To run the code locally, follow these steps:
 3. Sourced code for Leaflet.js map from Leaflet - https://leafletjs.com/examples/quick-start/ 
 4. Obtained content for History section from Drinks Ireland - https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument
 5. Code for tab buttons was taken from W3Schools - https://www.w3schools.com/howto/howto_js_tabs.asp 
-6. Hover dropdown menu sourced from W3Schools - https://www.w3schools.com/howto/howto_css_dropdown.asp 
+6. Hover dropdown menu sourced from W3Schools - https://www.w3schools.com/howto/howto_css_dropdown.asp
+7. Code to make button styling work on Safari - https://www.w3docs.com/snippets/css/how-to-fix-css-issues-on-safari.html
 
 All other minor guiding resoures were referenced within the code. 
 
