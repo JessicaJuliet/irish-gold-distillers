@@ -100,7 +100,7 @@ p {
     bottom: 0;
 }
 
-/*------------------ Tab Buttons ------------------*/
+/*------------------ Tabs ------------------*/
 
 /* Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
 .tab button {
@@ -122,9 +122,137 @@ p {
   background-color: #e09900;
 }
 
+.tabcontent h3{
+    color: #e09900;
+    margin-top: 50px;
+}
+
 .fa-map-marker, .fa-map {
     padding-right: 10px;
 }
+
+/*------------------ Hover Filter Menu ------------------*/
+
+/* Resource: Code sourced from W3C and custom styling added - https://www.w3schools.com/howto/howto_css_dropdown.asp */
+.hoverButton {
+    background-color: #231f20;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+};
+
+/* Position dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+} 
+
+.fa-sort-desc {
+    padding-left: 7px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+
+/* Style dropdown links */
+.dropdownContent a {
+    color: #231f20;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change colour of dropdown link on hover */
+.dropdownContent a:hover {
+    background-color: #dddddd;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+/*------------------ Grid Section ------------------*/
+
+.gridDiv {
+    padding: 30px;
+    background-color: #eceaea;
+    border-radius: 4px;
+    height: 750px;
+    margin: 70px 60px 0px 30px;
+    float: left;
+    /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: transform .2s; 
+}
+
+/* Resource: Expand on hover - https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+.gridDiv:hover {
+    transform: scale(1.02); 
+}
+
+.county {
+    background-color: rgba(169, 169, 169, 0.35);
+    width: 50%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.fa-home, .fa-times-circle, .fa-info-circle {
+    font-size: 20px;
+}
+
+.fa-times-circle {
+    color: #ee2a2a;
+}
+
+.website-btn {
+    background-color: #231f20;
+    color: white;
+    padding: 10px;
+}
+
+.website-btn:hover {
+    background-color: #e09900;
+}
+
+.gridImage {
+    width: 100%; 
+}
+
+/*------------------ Leaflet.js Map ------------------*/
+#map {
+    min-height: 600px;
+    width: 100%;
+}
+
+.mapImage {
+    max-height: 150px;
+}
+
+.mapTitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
 
 /*------------------ History Section ------------------*/
 
@@ -197,133 +325,6 @@ footer .fa {
     padding-right: 5px;
     color: #e09900;
 }
-
-/*------------------ Leaflet.js Map ------------------*/
-#map {
-    min-height: 600px;
-    width: 100%;
-}
-
-.mapImage {
-    max-height: 150px;
-}
-
-.mapTitle {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 0px;
-}
-
-/*------------------ Grid Section ------------------*/
-
-.gridDiv {
-    padding: 30px;
-    background-color: #eceaea;
-    border-radius: 5px;
-    height: 750px;
-    margin: 60px 30px 0px 30px;
-    float: left;
-    /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    transition: transform .2s; 
-}
-
-.county {
-    background-color: rgba(169, 169, 169, 0.35);
-    width: 40%;
-    padding: 5px;
-    border-radius: 3px;
-} 
-
-.gridImage {
-    width: 100%; 
-    /*height: auto;*/
-    /*display: block;*/
-    /*object-fit: contain;*/
-}
-
-.website-btn {
-    background-color: #231f20;
-    color: white;
-    padding: 10px;
-}
-
-.website-btn:hover {
-    background-color: #e09900;
-}
-
-.fa-home, .fa-times-circle, .fa-info-circle {
-    font-size: 20px;
-}
-
-.fa-times-circle {
-    color: #ee2a2a;
-}
-
-/* Resource: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-.gridDiv:hover {
-    transform: scale(1.02); 
-}
-
-/*------------------ Grid Hover Button ------------------*/
-    
-/* Hover button styling */
-.hoverButton {
-    /*background-color: #0b025a;*/
-    background-color: #231f20;
-    color: white;
-    font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 5px;
-    padding: 10px;
-    border: none;
-};
-
-/* Position dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 50px;
-} 
-
-.fa-sort-desc {
-    padding-left: 7px;
-}
- 
-/* Change button colour on hover 
-.hoverButton:hover {
-    background-color: #eceaea;
-    color: #231f20;
-} */
-
-/* Hide dropdown content by default */
-.dropdownContent {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px #00000033;
-    z-index: 1;
-}
-
-/* Style dropdown links */
-.dropdownContent a {
-    color: #231f20;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change colour of dropdown link on hover */
-.dropdownContent a:hover {
-    background-color: #dddddd;
-}
-
-.dropdown:hover .dropdownContent {
-    display: block;
-}
-
-
 
 /*------------------ Media Queries ------------------*/
 
