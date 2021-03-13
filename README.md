@@ -7,13 +7,13 @@
         * [First-time Visitor Goals](#first-time-visitor-goals)
         * [Returning Visitor Goals](#returning-visitor-goals)
         * [Frequent Visitor Goals](#frequent-visitor-goals)
-* [Wireframes](#wireframes)
-* [Typography](#typography)
-* [Colour scheme](#colour-scheme)
-* [Imagery](#imagery)
-    * [Logo and Favicon](#logo-and-favicon)
-    * [Stock Images](#stock-images)
-    * [Distillery Images](#distillery-images)
+    * [Wireframes](#wireframes)
+    * [Typography](#typography)
+    * [Colour scheme](#colour-scheme)
+    * [Imagery](#imagery)
+        * [Logo and Favicon](#logo-and-favicon)
+        * [Stock Images](#stock-images)
+        * [Distillery Images](#distillery-images)
 * [Features](#features)
     * [Existing Features](#exisiting-features)
     * [Features Left to Implement](#features-left-to-implement)
@@ -62,7 +62,7 @@ Please see the [Irish Gold Distillers](https://jessicajuliet.github.io/irish-gol
 
 #### Returning Visitor Goals
 
-* As a returning visitor, I want to explore the whiskey distilleries in Ireland
+* As a returning visitor, I want to explore the whiskey distilleries in Ireland and filter by county
 * As a returning visitor, I want to easily find the location of whiskey distilleries on an interactive map
 * As a returning visitor, I want to read about and see photos of the whiskey distilleries in Ireland
 
@@ -128,30 +128,49 @@ The Irish Gold Distillers website is an interactive single page website divided 
 
 #### Section 1 - Navbar
 
+![Navbar](assets/img/readme-img/navbar.png)
+
 The navbar is fully responsive and collapses down into a hamburger menu on smaller devices. It provides a short list of links to the key sections on the website. 
 
-As the website is short and requires minimal scrolling, the navbar is not fixed to the top. Instead greater focus is given to providing the user with as much screen display as possible for its interactive elements.
+The navbar was not fixed to the top of the page as the webpage is short and requires minimal scrolling to reach its key functionality. Instead greater focus is given to providing the user with as much screen display as possible for its interactive elements. 
 
-The navbar was not fixed to the top of the page as the webpage is short and requires minimal scrolling to reach its key functionality. Links were provided in the footer to ensure the user could easily access key links without scrolling back to the top of the webpage to access the navbar. 
+Links were provided in the footer to ensure the user could easily access key sections of website without scrolling back to the top to access the navbar. 
 
-> As a first-time visitor, I want to navigate through the website easily on a mobile and desktop device
+> As a first-time visitor, I want to navigate through the website easily on both mobile and desktop devices
 
 #### Section 2 - Hero Image & CTA
 
-The hero image is a key component of the website as it helps the user to quickly identify what product the site is related to and the H1 and H2 headings overlaying the image provide the user with a succinct description of its key functionality "The Home of Irish Whiskey Distilleries". The CTA directs the user straight to its interactive search functionality.
+![Hero Image](assets/img/readme-img/hero-image.png)
 
-> As a first-time visitor, I want to be able to quickly identify that the website houses all the whiskey distilleries in Ireland
+The hero image and headings are a key component of the website as they allow the user to quickly establish the purpose of the site. The CTA directs the user directly to its interactive search functionality.
+
+> As a first-time visitor, I want to be able to quickly identify that the website provides information on whiskey distilleries in Ireland
+
+> As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery
 
 #### Section 3 - Grid View 
 
-> As a returning visitor, I want to explore the whiskey distilleries across Ireland, read their description and see associated imagery so I know what to expect before visiting
+![Grid View](assets/img/readme-img/grid-view.png)
+
+The Grid View section of the website allows the user to filter distilleries by county and see a grid list of results. The results include the distillery's name, address, description, image and whether they're currently running tours. It also has a link to their website so the user can find out more information.
+
+> As a returning visitor, I want to explore the whiskey distilleries in Ireland and filter by county
+
+> As a returning visitor, I want to read about and see photos of the whiskey distilleries in Ireland
+
+> As a frequent visitor, I want to check to see if the distillery is running tours during the COVID-19 pandemic
 
 #### Section 4 - Map View
 
+![Map View](assets/img/readme-img/map-view.png)
 
-> As a returning visitor, I want to easily find the location of Ireland's whiskey distilleries on an interactive map
+In addition to the Grid View above, users can also see a list of distilleries displayed on an interactive map. When they hover over the marker, or click on mobile, more information is displayed about the distillery. The marker was customised to match the gold droplet in the logo.
+
+> As a returning visitor, I want to easily find the location of whiskey distilleries on an interactive map
 
 #### Section 5 - History
+
+![History Section](assets/img/readme-img/history-section.png)
 
 For website users looking for delve a little deeper into Ireland's whiskey distilleries, this section provides them with a short but insightful description of whiskey distilleries in Ireland. 
 
@@ -159,13 +178,22 @@ For website users looking for delve a little deeper into Ireland's whiskey disti
 
 #### Section 6 - Images
 
-> As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery which represent quality products
+![Image Section](assets/img/readme-img/image-section.png)
+
+The Images Section provides the user with rich imagery of whiskey and whiskey casks. This makes the website more visually appealing and provides a nice break between the history text and footer. 
+
+> As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery
 
 #### Section 7 - Footer
+
+![Footer](assets/img/readme-img/footer.png)
 
 The Footer highlights the website's contact information, links and logo. These were included in the Footer as this is the location they're most commonly expected by a website user. The links allow the user to go back to the section of the page they wish without having to scroll back to the top. 
 
 ### Features Left to Implement
+
+* 
+
 
 ## Technologies Used
 
