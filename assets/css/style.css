@@ -224,7 +224,7 @@ p {
     color: #ee2a2a;
 }
 
-.website-btn {
+.websiteButton {
     background-color: #231f20;
     /* Resource: Display background colour on Safari - https://www.w3docs.com/snippets/css/how-to-fix-css-issues-on-safari.html */
     -webkit-appearance: none;
@@ -234,7 +234,7 @@ p {
     padding: 10px;
 }
 
-.website-btn:hover {
+.websiteButton:hover {
     background-color: #e09900;
     -webkit-appearance: none;
     -moz-appearance: none;
