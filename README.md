@@ -15,7 +15,7 @@
         * [Stock Images](#stock-images)
         * [Distillery Images](#distillery-images)
 * [Features](#features)
-    * [Existing Features](#exisiting-features)
+    * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
 * [Technologies Used](#technologies-used)
 * Testing
@@ -144,6 +144,8 @@ Links were provided in the footer to ensure the user could easily access key sec
 
 The hero image and headings are a key component of the website as they allow the user to quickly establish the purpose of the site. The CTA directs the user directly to its interactive search functionality.
 
+On mobile, the H1 and CTA are removed from the hero image to not obstruct the image, however the H2 remains to ensure the website's purpose is clear.
+
 > As a first-time visitor, I want to be able to quickly identify that the website provides information on whiskey distilleries in Ireland
 
 > As a first-time visitor, I want to see a visually pleasing website with attractive whiskey imagery
@@ -153,6 +155,8 @@ The hero image and headings are a key component of the website as they allow the
 ![Grid View](assets/img/readme-img/grid-view.png)
 
 The Grid View section of the website allows the user to filter distilleries by county and see a grid list of results. The results include the distillery's name, address, description, image and whether they're currently running tours. It also has a link to their website so the user can find out more information.
+
+The county was intentionally highlighted above the address so users can quickly see that their filter selection is correct. Furthermore, icons were used to break up content and let users decipher information easily.
 
 > As a returning visitor, I want to explore the whiskey distilleries in Ireland and filter by county
 
@@ -164,7 +168,9 @@ The Grid View section of the website allows the user to filter distilleries by c
 
 ![Map View](assets/img/readme-img/map-view.png)
 
-In addition to the Grid View above, users can also see a list of distilleries displayed on an interactive map. When they hover over the marker, or click on mobile, more information is displayed about the distillery. The marker was customised to match the gold droplet in the logo.
+In addition to the Grid View above, users can also see a list of distilleries displayed on an interactive map. The map used is from a free open-source JavaScript library called Leaflet.
+
+When they hover over the marker, or click on mobile, more information is displayed about the distillery. The marker was customised to match the gold droplet in the logo.
 
 > As a returning visitor, I want to easily find the location of whiskey distilleries on an interactive map
 
@@ -192,14 +198,14 @@ The Footer highlights the website's contact information, links and logo. These w
 
 ### Features Left to Implement
 
-* 
-
+* A submission form for distillery owners to implement their details if they're not included on the website and wish to before
+* Include a full list of distilleries in Ireland and update this as and when more come about
 
 ## Technologies Used
 
 * GitHub
     
-    *   GitHub is the hosting site used to store the source code for the Website
+    * GitHub is the hosting site used to store the source code for the Website
 
 * Git
 
