@@ -65,6 +65,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     background-color: #231f20;
+    /* Resource: Display background colour on Safari https://www.w3docs.com/snippets/css/how-to-fix-css-issues-on-safari.html */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -225,6 +226,10 @@ p {
 
 .website-btn {
     background-color: #231f20;
+    /* Resource: Display background colour on Safari - https://www.w3docs.com/snippets/css/how-to-fix-css-issues-on-safari.html */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     color: #fafafa;
     padding: 10px;
 }
