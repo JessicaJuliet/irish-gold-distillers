@@ -77,19 +77,33 @@ p {
     color: #e09900;
 }
 
-/*------------------ Search Distilleries Section ------------------*/
+/*------------------ Discover Distilleries Section ------------------*/
 
-.searchDistilleries {
+.distillerySection {
     padding-top: 50px;
     padding-bottom: 120px;
 }
 
-/* Resource: Code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
-/* Tab buttons */
+.distillerySection h2 {
+    color: #231f20;
+    padding-bottom: 10px;
+    position: relative;
+}
 
+.distillerySection h2::after {
+    content:'';
+    height: 3px;
+    width: 100px;
+    background: #231f20;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*------------------ Tab Buttons ------------------*/
+
+/* Resource: Tab code sourced from https://www.w3schools.com/howto/howto_js_tabs.asp */
 .tab button {
-    /*background-color: light grey;*/
-    background-color: #eceaea;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -112,30 +126,8 @@ p {
     padding-right: 10px;
 }
 
-/* H2 heading */
-.searchDistilleries h2 {
-    color: #231f20;
-    padding-bottom: 10px;
-    position: relative;
-}
-
-.searchDistilleries h2::after {
-    content:'';
-    height: 3px;
-    width: 100px;
-    background: #231f20;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-
-.tabcontent h3{
-    color: #e09900;
-    margin-top: 50px;
-}
-
 /*------------------ History Section ------------------*/
+
 .history-section {
     background-color: #231f20;
     padding: 120px 0;
