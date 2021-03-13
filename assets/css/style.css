@@ -10,23 +10,25 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*------------------ Navbar ------------------*/
-.navbarCustom{
+/*------------------ Header ------------------*/
+
+.navbarCustom {
     padding: 10px 90px;
     background-color: #231f20 !important;
 }
 
-.nav-link {
+.navItem {
     color: white !important;
 }
 
-.nav-link:hover {
+.navItem:hover {
     color: #e09900 !important;
 }
 
-/*------------------ Header ------------------*/
+/*------------------ Hero Image Section ------------------*/
+
 .hero-image {
-    /*-- Resource: Photo by Adam Jaime on Unsplash https://unsplash.com/photos/dmkmrNptMpw */
+    /* Resource: Photo by Adam Jaime on Unsplash https://unsplash.com/photos/dmkmrNptMpw */
     background: url("../img/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +62,7 @@ p {
 }
 
 .hero-button {
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     background-color: #231f20;
     color: white;
