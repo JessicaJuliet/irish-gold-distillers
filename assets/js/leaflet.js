@@ -13,13 +13,12 @@ var map = L.map("map", {
     scrollWheelZoom: false
 });
 
-// Resource: Code taken from https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
+// Resource: Stop map from moving when scrolled over, code sourced from https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
 map.on('click', function() {
     if (map.scrollWheelZoom.enabled()) {
-    map.scrollWheelZoom.disable();
-    }
-    else {
-    map.scrollWheelZoom.enable();
+        map.scrollWheelZoom.disable();
+    } else {
+        map.scrollWheelZoom.enable();
     }
 });
 
@@ -29,10 +28,9 @@ var myIcon = L.icon({
     iconUrl: "assets/img/pointer.png"
 });
 
-// Create for-each loop to run through dataset.js and display custom markers on map with HTML
+// Create forEach loop to run through dataset.js and display custom markers on map with HTML
 dataset.forEach((location) => {
-    L.marker([location.lat, location.lng], {icon: myIcon}).addTo(map)
-    .bindTooltip(
+    L.marker([location.lat, location.lng], {icon: myIcon}).addTo(map).bindTooltip(
         `<div class="mapDiv">` +
         `<p class="mapTitle"><strong>${location.title}</strong></p>` + 
         `<p class="mapParagraph"><i class="fa fa-map-marker"></i><strong>County: </strong>${location.county}</p>` + 
