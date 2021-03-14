@@ -90,7 +90,7 @@ function displayDataset(dataset) {
     document.getElementById("gridContent").innerHTML += 
     `<div class="col-xs-10 col-md-5 gridDiv">` +
         `<h4>${distillery.title}</h4><br>` + 
-        `<p class="county"><strong>County: </strong>${distillery.county}</p>` +
+        `<p class="county"><i class="fa fa-map-marker"></i><strong>County: </strong>${distillery.county}</p>` +
         `<p><strong><i class="fa fa-home"></i> Address: </strong>${distillery.address}</p>` +
         `<p><strong><i class="fa fa-times-circle"></i> Tours: </strong>${distillery.tours}</p>` +
         `<P><strong><i class="fa fa-info-circle"></i> Description: </strong>${distillery.description}</P>` +

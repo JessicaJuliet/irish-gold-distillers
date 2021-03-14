@@ -142,7 +142,7 @@ p {
 /*------------------ Hover Filter Menu ------------------*/
 
 /* Resource: Code sourced from W3C and custom styling added - https://www.w3schools.com/howto/howto_css_dropdown.asp */
-.hoverButton {
+#hoverButton {
     background-color: #231f20;
     color: #fafafa;
     font-size: 17px;
@@ -187,7 +187,7 @@ p {
 
 .dropdown:hover .dropdownContent {
     display: block;
-}
+} 
 
 .displayResults {
     padding-top: 40px;
@@ -216,14 +216,7 @@ p {
     transform: scale(1.02); 
 }
 
-.county {
-    background-color: rgba(169, 169, 169, 0.35);
-    width: 40%;
-    padding: 5px;
-    border-radius: 3px;
-}
-
-.fa-home, .fa-times-circle, .fa-info-circle {
+.fa-home, .fa-times-circle, .fa-info-circle, .fa-map-marker {
     font-size: 20px;
 }
 
@@ -259,14 +252,33 @@ p {
     width: 100%;
 }
 
-.mapImage {
-    max-height: 150px;
+.mapDiv {
+    width: 370px;
 }
 
 .mapTitle {
     font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 0px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.county {
+    background-color: rgba(169, 169, 169, 0.35);
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+} 
+
+.mapParagraph{
+    padding: 5px;
+    margin: 0px;
+    text-overflow: hidden;
+}
+
+.mapImage {
+    max-width: 100%;
+    padding-top: 15px;
 }
 
 /*------------------ History Section ------------------*/

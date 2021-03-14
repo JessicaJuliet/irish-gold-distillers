@@ -32,6 +32,13 @@ var myIcon = L.icon({
 // Create for-each loop to run through dataset.js and display custom markers on map with HTML
 dataset.forEach((location) => {
     L.marker([location.lat, location.lng], {icon: myIcon}).addTo(map)
-    .bindTooltip("<p class='mapTitle'><strong>" + location.title + "</strong></p>" + "<p class='county'><strong>County: </strong>" + location.county + "</p>" + "<i class='fa fa-home'></i> <strong> Address: </strong>" + location.address + "<br>" + "<i class='fa fa-times-circle'></i> <strong>Tours: </strong>" + location.tours + "<br><br>" + "<img class='mapImage' src=" + location.photo + ">"
+    .bindTooltip(
+        `<div class="mapDiv">` +
+        `<p class="mapTitle"><strong>${location.title}</strong></p>` + 
+        `<p class="mapParagraph"><i class="fa fa-map-marker"></i><strong>County: </strong>${location.county}</p>` + 
+        `<p class="mapParagraph"><i class="fa fa-home"></i> <strong>Address: </strong>${location.address}</p>` + 
+        `<p class="mapParagraph"><i class="fa fa-times-circle"></i> <strong>Tours: </strong>${location.tours}</p>` + 
+        `<div class="mapDiv"><img class="mapImage" src="${location.photo}"></div>` +
+        `</div>`
     );
 });
