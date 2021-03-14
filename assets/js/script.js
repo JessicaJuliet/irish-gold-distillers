@@ -28,7 +28,7 @@ function openSearch(evt, searchView) {
 
 // Rename dataset to 'data' for naming clarity
 let data = dataset;
-// Set default view to display 'Dublin' distilleries
+// Set default view to display 'Kerry' distilleries
 let defaultDataset = data.filter(distillery => distillery.county === "Kerry")
 displayDataset(defaultDataset);
 
@@ -66,6 +66,8 @@ uniqueCountyArray.forEach((countyName) => {
         // Update results to match county selected
         document.getElementById("results").innerHTML = "";
         document.getElementById("results").append(value);
+        // Hide menu on click
+        document.getElementById("filterCounties").style.visibility = "hidden";
     });
     document.getElementById("filterCounties").append(filterListItem);
 });
