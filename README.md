@@ -299,7 +299,7 @@ The website's HTML, CSS and JavaScript were regularly checked using the W3C Mark
 
 #### User Story Testing
 
-A manual review of the user stories was carried out where automation was not possible. Please view these [here](https://github.com/JessicaJuliet/irish-gold-distillers/blob/034cf53418bdac481bf94a7821f8c758084df2e2/testing/Manual%20User%20Story%20Testing.pdf).
+A manual review of the user stories was carried out where automation was not possible. Please view these [here](htesting/Manual User Story Testing.pdf).
 
 #### Devices
 
