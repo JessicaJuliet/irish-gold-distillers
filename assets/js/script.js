@@ -29,7 +29,7 @@ function openSearch(evt, searchView) {
 // Rename dataset to 'data' for naming clarity
 let data = dataset;
 // Set default view to display 'Dublin' distilleries
-let defaultDataset = data.filter(distillery => distillery.county === "Dublin")
+let defaultDataset = data.filter(distillery => distillery.county === "Kerry")
 displayDataset(defaultDataset);
 
 // <------------------ Remove duplicate counties from filter menu ------------------>
@@ -63,11 +63,14 @@ uniqueCountyArray.forEach((countyName) => {
         let value = e.currentTarget.text;
         let newDataset = dataset.filter(distillery => distillery.county === value);
         displayDataset(newDataset);
+        // Update results to match county selected
+        document.getElementById("results").innerHTML = "";
+        document.getElementById("results").append(value);
     });
     document.getElementById("filterCounties").append(filterListItem);
 });
 
-// <------------------ Grid view function of all distilleries ------------------>
+// <------------------ Grid view of distilleries ------------------>
 
 // Function to display distillery data
 function displayDataset(dataset) {

@@ -189,6 +189,14 @@ p {
     display: block;
 }
 
+.displayResults {
+    padding-top: 40px;
+}
+
+#results {
+    font-weight: bold;
+}
+
 /*------------------ Grid Section ------------------*/
 
 .gridDiv {
@@ -196,8 +204,7 @@ p {
     background-color: #eceaea;
     border-radius: 4px;
     height: 750px;
-    /*margin: 70px 60px 0px 30px;*/
-    margin: 70px 40px 0 0px;
+    margin: 15px 40px 60px 0px;
     float: left;
     /* Resource: https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
