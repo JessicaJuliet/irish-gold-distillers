@@ -299,7 +299,7 @@ The website's HTML, CSS and JavaScript were regularly checked using the W3C Mark
 
 #### User Story Testing
 
-A manual review of the user stories was carried out where automation was not possible. Please view these [here](htesting/Manual User Story Testing.pdf).
+A manual review of the user stories was carried out where automation was not possible. Please view these [here](testing/manual-testing.pdf).
 
 #### Devices
 
