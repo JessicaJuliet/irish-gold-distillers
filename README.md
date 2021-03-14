@@ -302,6 +302,7 @@ The website was tested across different browsers including Google Chrome and Saf
 Overall the website worked well across all device types and browsers, however a few minor issues were encountered:
 
 * Button styling on the iPhone XS Max and the Safari browser appeared differently to that set in the CSS, this was resolved by adding some extra code to set the appearance property to none and use -WebKit- and -Moz- vendor prefixes
+* The hover menu on mobile doesn't close when clicked which forces the user to click outside of the menu to try and close it. This was fixed by applying JavaScript code to close the hover menu on click.
 
 ## Deployment
 
