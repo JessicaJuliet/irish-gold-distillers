@@ -52,9 +52,12 @@ countyDataset.forEach((countyList) => {
 
 // <------------------ Hover menu filter ------------------>
 
+let filterListItem;
+
 // Filter distilleries by county on click
 uniqueCountyArray.forEach((countyName) => {
-    let filterListItem = document.createElement("a");
+    filterListItem = document.createElement("a");
+    //let filterListItem = document.createElement("a");
     filterListItem.innerHTML = countyName;
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
@@ -70,6 +73,13 @@ uniqueCountyArray.forEach((countyName) => {
         document.getElementById("filterCounties").style.visibility = "hidden";
     });
     document.getElementById("filterCounties").append(filterListItem);
+});
+
+// Show menu on hover
+document.getElementById("hoverButton").addEventListener("mouseover", function() {
+    if(document.getElementById("filterCounties").style.visibility = "hidden"){
+        document.getElementById("filterCounties").style.visibility = "visible";
+    }; 
 });
 
 // <------------------ Grid view of distilleries ------------------>
