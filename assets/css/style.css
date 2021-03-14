@@ -25,6 +25,10 @@ p {
     color: #e09900 !important;
 }
 
+.logo {
+    height: 70px;
+}
+
 /*------------------ Hero Image Section ------------------*/
 
 .hero-image {
@@ -150,7 +154,7 @@ p {
     border-radius: 4px;
     padding: 10px;
     border: none;
-};
+}
 
 /* Position dropdown content */
 .dropdown {
@@ -273,7 +277,6 @@ p {
 .mapParagraph{
     padding: 5px;
     margin: 0px;
-    text-overflow: hidden;
 }
 
 .mapImage {
@@ -312,7 +315,7 @@ p {
 ul {
   list-style-type: none;
   overflow: hidden;
-  padding-inline-start: 0px;
+  padding: 0px;
 }
 
 li {
@@ -396,7 +399,7 @@ footer .fa-phone-square {
     }
 }
 
-/* Tab section 
+/* Tab section */
 
 /* Mobile L */
 @media only screen and (max-width: 600px){
