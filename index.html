@@ -21,10 +21,10 @@
         <!-- Resource: Navbar code sourced from Bootstrap and custom styling added - https://getbootstrap.com/docs/4.0/components/navbar/ -->
         <nav class="navbarCustom navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/igd-logo-white.png" height="70px" class="d-inline-block align-top" alt="Irish Gold Distillers logo">
+                <img src="assets/img/igd-logo-white.png" class="d-inline-block align-top logo" alt="Irish Gold Distillers logo">
             </a>
             <!-- Hamburger button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -44,7 +44,7 @@
         <div class="hero-text">
             <h1>Irish Gold Distillers</h1>
             <h2>The Home of Ireland's Whiskey Distilleries</h2>
-            <a type="button" href="#discoverDistilleries" class="btn hero-button">Discover Distilleries</a>
+            <a href="#discoverDistilleries" class="btn hero-button">Discover Distilleries</a>
         </div>
     </section>
     <!-- Start Tab Section -->
@@ -66,7 +66,9 @@
         <!-- Start Map View Tab -->
         <div id="mapView" class="tabcontent"> 
             <h3>Map View</h3>
-            <p><strong>Click</strong> on the interactive map to explore the whiskey distilleries across Ireland:</p>
+            <p>
+                <strong>Click</strong> on the interactive map to explore the whiskey distilleries across Ireland:
+            </p>
             <br>
             <!-- Leaflet map goes here-->
             <div id="map"></div>
@@ -101,7 +103,7 @@
     <section class="historySection" id="history">
         <div class="container">
             <h2>History of Ireland's Whiskey Distilleries</h2>
-            <!-- Content sourced from Drinks Ireland - https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument -->
+            <!-- Resource: Content sourced from Drinks Ireland - https://www.drinksireland.ie/Sectors/DI/DI.nsf/vPagesWhiskey/Industry_in_Ireland~the-irish-whiskey-industry!OpenDocument -->
             <p>
                 Ireland is the home of whiskey! Whiskey has been distilled in Ireland since the 6th century, it has deep roots in Ireland and is one of the oldest spirit drinks in Europe. Industry investment and consequent production grew rapidly in the late 18th century. At its height in the mid-19th century 88 licenced distilleries, producing more than 12m 9-litre cases annually, made Irish Whiskey the largest global spirits category of the time. However a combination of events led to the industry's demise and by the mid-1980s only two Irish whiskey distilleries remained, both owned by Irish Distillers. Scotch, Bourbon, and Canadian whiskey had all surged and left Irish volumes far behind at about 1% of global sales.
             </p>
@@ -111,7 +113,7 @@
         </div>
     </section>
     <!-- Start Image Section -->
-    <section class="imageSection">
+    <div class="imageSection">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 imageOne"> 
@@ -124,7 +126,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- Start Footer -->
     <footer class="footer">
         <div class="container">
