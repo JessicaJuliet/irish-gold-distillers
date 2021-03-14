@@ -4,32 +4,31 @@
 document.getElementById("defaultOpen").click();
 
 function openSearch(evt, searchView) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
-  }
+    }
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
+    }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(searchView).style.display = "block";
-  evt.currentTarget.className += " active";
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(searchView).style.display = "block";
+    evt.currentTarget.className += " active";
 }
 
 // <------------------ Default grid view of distilleries ------------------>
 
-// Rename dataset to 'data' for naming clarity
 let data = dataset;
 // Set default view to display 'Kerry' distilleries
-let defaultDataset = data.filter(distillery => distillery.county === "Kerry")
+let defaultDataset = data.filter(distillery => distillery.county === "Kerry");
 displayDataset(defaultDataset);
 
 // <------------------ Remove duplicate counties from filter menu ------------------>
@@ -57,7 +56,6 @@ let filterListItem;
 // Filter distilleries by county on click
 uniqueCountyArray.forEach((countyName) => {
     filterListItem = document.createElement("a");
-    //let filterListItem = document.createElement("a");
     filterListItem.innerHTML = countyName;
     filterListItem.classList.add("filterList");
     filterListItem.addEventListener("click", function(e){ 
@@ -66,7 +64,7 @@ uniqueCountyArray.forEach((countyName) => {
         let value = e.currentTarget.text;
         let newDataset = dataset.filter(distillery => distillery.county === value);
         displayDataset(newDataset);
-        // Update results to match county selected
+        // Update 'Results' to match county selected
         document.getElementById("results").innerHTML = "";
         document.getElementById("results").append(value);
         // Hide menu on click
@@ -75,16 +73,17 @@ uniqueCountyArray.forEach((countyName) => {
     document.getElementById("filterCounties").append(filterListItem);
 });
 
-// Show menu on hover
+// Show hidden menu again menu on hover
 document.getElementById("hoverButton").addEventListener("mouseover", function() {
     if(document.getElementById("filterCounties").style.visibility = "hidden"){
         document.getElementById("filterCounties").style.visibility = "visible";
-    }; 
+    }
 });
 
 // <------------------ Grid view of distilleries ------------------>
 
 // Function to display distillery data
+// Resource: Icons sourced from Font Awesome - https://fontawesome.bootstrapcheatsheets.com/
 function displayDataset(dataset) {
     let gridContent = dataset.forEach((distillery) => {
     document.getElementById("gridContent").innerHTML += 
@@ -97,7 +96,5 @@ function displayDataset(dataset) {
         `<a type="button" class="btn websiteButton" href="${distillery.website}" target="_blank">Visit website</a><br>` +
         `<br><img class="gridImage" src="${distillery.photo}">` +
     `</div>`;
-    })
-    //displayDataset(gridContent); 
-    console.log(gridContent);
-};
+    });
+}
