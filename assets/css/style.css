@@ -193,10 +193,6 @@ p {
     display: block;
 } 
 
-.displayResults {
-    padding-top: 40px;
-}
-
 #results {
     font-weight: bold;
 }
@@ -426,13 +422,6 @@ footer .fa-phone-square {
 @media only screen and (max-width: 600px){
 .tabcontent h3 {
     margin-top: 100px;
-    }
-}
-
-/* Grid view section */
-@media only screen and (max-width: 600px){
-    .gridDiv {
-        margin-top: 50px;
     }
 }
 

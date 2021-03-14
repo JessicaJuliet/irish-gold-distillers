@@ -18,11 +18,11 @@
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
 * [Technologies Used](#technologies-used)
-* Testing
-    * Automated Testing
-        * Responsiveness
-        * W3C Validator Tools
-        * Problems Encountered
+* [Testing](#testing)
+    * [Automated Testing](#automated-testing)
+        * [Responsiveness](#responsiveness)
+        * [W3C Validator Tools](#w3c-validator-tools)
+        * [Problems Encountered](#problems-encountered)
     * [Manual Testing](#manual-testing)
         * [User Story Testing](#user-story-testing)
         * [Devices](#devices)
@@ -278,11 +278,28 @@ The Footer highlights the website's contact information, links and logo. These w
 
 ### Automated Testing
 
+#### Responsiveness
+
+To check the responsiveness of the website across all devices, Am I Responsive and Responsinator were used. I input the project's live URL to view it across multiple device sizes.
+
+Furthermore, I regularly used Google Chrome Developer Tools to simulate the website on different device sizes throughout coding this project to ensure it rendered correctly.
+
+#### W3C Validator Tools
+
+The website's HTML, CSS and JavaScript were regularly checked using the W3C Markup Validation Service and CSS Validation Service, as well as JSHint. A final validation check was performed with no errors before submitting the project:
+
+* [HTML Validator results](testing/html-validation.png)
+* [CSS Validator results](testing/css-validation.png)
+
+#### Problems Encountered
+
+* JSHint gave warnings that some of the syntax is only available in ES6 e.g. template literals 
+
 ### Manual Testing
 
 #### User Story Testing
 
-A manual review of the user stories was carried out where automation was not possible. Please view these [here]().
+A manual review of the user stories was carried out where automation was not possible. Please view these [here](https://github.com/JessicaJuliet/irish-gold-distillers/blob/034cf53418bdac481bf94a7821f8c758084df2e2/testing/Manual%20User%20Story%20Testing.pdf).
 
 #### Devices
 
