@@ -7,7 +7,7 @@ let dataset = [
         county: "Leitrim",
         website: "http://thesheddistillery.com/",
         tours: "Temporarily closed due to Covid-19",
-        description: "The Shed Distillery presents two distinct experiences in one tour –  a Curious Journey into the Inner Sanctum of the first whiskey distillery in Connacht in 101 years and a voyage to the Far East to discover gunpowder tea, the inspiration behind Drumshanbo Gunpowder Irish Gin.",
+        description: "Witness how every precious drop of Drumshanbo Single Pot Still Irish Whiskey is slow-distilled by hand at this authentic Irish distillery",
         photo: "assets/img/listings/the-shed.jpg",
         lat: 54.04729435487668, 
         lng: -8.042941142348049
@@ -29,7 +29,7 @@ let dataset = [
         county: "Waterford",
         website: "http://www.blackwaterdistillery.ie/",
         tours: "Temporarily closed due to Covid-19",
-        description: "Beautifully framed within the West Waterford countryside on the banks of the Blackwater river, Blackwater Distillery is renowned nationally and internationally for its innovative, informed and brave approach to creating a diverse range of contemporary Irish spirits.",
+        description: "Blackwater Distillery is renowned nationally and internationally for its innovative, informed and brave approach to creating a diverse range of contemporary Irish spirits.",
         photo: "assets/img/listings/blackwater.jpg",
         lat: 52.14765986681307,
         lng: -8.052948943714533
@@ -78,18 +78,18 @@ let dataset = [
         lat: 51.62164586638968, 
         lng: -8.885773430778368
     }, 
-        {
+    {
         title: "Slane Distillery",
         address: "N51, Slanecastle Demesne",
         county: "Meath",
         website: "http://slaneirishwhiskey.com/",
         tours: "Temporarily closed due to Covid-19",
-        description: "Set in the heart of the Boyne Valley, Slane Distillery is housed in beautifully restored 250-year-old stable buildings on the grounds of the legendary Slane Castle, famous around the globe for the incredible series of rock concerts.",
+        description: "Slane Distillery is housed in beautifully restored 250-year-old stable buildings on the grounds of the legendary Slane Castle, famous around the globe for the incredible series of rock concerts.",
         photo: "assets/img/listings/slane.png",
         lat: 53.71185722592359, 
         lng: -6.558260212981522
     }, 
-        {
+    {
         title: "Pearse Lyons Distillery",
         address: "121-122 James St, The Liberties, D08 ET27",
         county: "Dublin",
@@ -100,7 +100,7 @@ let dataset = [
         lat: 53.34377785880115, 
         lng: -6.289195334427413
     }, 
-        {
+    {
         title: "Royal Oak Distillery",
         address: "Clorusk Lower, Royaloak",
         county: "Carlow",
@@ -111,19 +111,19 @@ let dataset = [
         lat: 52.702493408415826,
         lng:  -6.9801330093114675,
     }, 
-        {
+    {
         title: "Rademon Estate Distillery",
         address: "65 Church Rd, Crossgar, Downpatrick BT30 9HR",
         county: "Down",
         website: "http://www.shortcrossgin.com/",
         tours: "Temporarily closed due to Covid-19",
-        description: "Rademon Estate Distillery is home to Shortcross Gin and a new single malt Irish whiskey. Rademon Estate is currently made up of over 500 acres of land and dates to AD565 with the original estate house dating back to 1667.",
+        description: "Rademon Estate Distillery is home to Shortcross Gin and a new single malt Irish whiskey. It's currently made up of over 500 acres of land and dates to AD565 with the original estate house dating back to 1667.",
         photo: "assets/img/listings/rademon.jpg",
         lat: 54.39596771045236, 
         lng: -5.790359218036798
     }, 
 
-        {
+    {
         title: "Connacht Whiskey Distillery",
         address: "Belleek, Ballina, F26 P932",
         county: "Mayo",
@@ -134,32 +134,29 @@ let dataset = [
         lat: 54.12204196194578, 
         lng: -9.14384187756911
     }, 
-
-        {
+    {
         title: "The Echlinville Distillery",
         address: "62 Gransha Rd, Kircubbin, Newtownards BT22 1AJ",
         county: "Down",
         website: "https://echlinville.com/",
         tours: "Temporarily closed due to Covid-19",
-        description: "The Echlinville Distillery Tour & Tipple offers a real insight into the workings of Northern Ireland’s first newly licensed distillery for over 125 years and home to some of Ireland’s best-known spirits – Dunville’s Irish Whiskey, Echlinville Gin, Jawbox Gin, Weavers Gin and Bán Poitín.",
+        description: "The Echlinville Distillery Tour & Tipple offers a real insight into the workings of Northern Ireland’s first newly licensed distillery for over 125 years.",
         photo: "assets/img/listings/echlinville.jpg",
         lat: 54.46915307978796,
         lng: -5.5099783757047245
     }, 
-
-        {
+    {
         title: "Dingle Distillery",
         address: "Farranredmond, Dingle",
         county: "Kerry",
         website: "https://dingledistillery.ie/",
         tours: "Temporarily closed due to Covid-19",
-        description: "The Dingle Whiskey Distillery, located just outside the scenic town of Dingle, Co. Kerry, was Ireland’s first purpose-built distillery in over 100 years. Oliver Hughes, Liam Lahart and Peter Mosley had the vision to bring an artisan craft distillery to the picturesque town of Dingle.",
+        description: "The Dingle Whiskey Distillery was Ireland’s first purpose-built distillery in over 100 years. Oliver Hughes, Liam Lahart and Peter Mosley had the vision to bring an artisan craft distillery to the picturesque town of Dingle.",
         photo: "assets/img/listings/dingle.jpg",
         lat: 52.14192754537933, 
         lng: -10.288836062312049
     }, 
-
-        {
+    {
         title: "Kilbeggan Distillery",
         address: "Lower Main St, Aghamore, Kilbeggan",
         county: "Westmeath",
@@ -170,8 +167,7 @@ let dataset = [
         lat: 53.369571903452915, 
         lng: -7.502294091095068
     }, 
-
-        {
+    {
         title: "Tullamore D.E.W.",
         address: "Kilbride Plaza, Bury Quay, Puttaghan, Tullamore",
         county: "Offaly",
@@ -182,8 +178,7 @@ let dataset = [
         lat: 53.278170447146735, 
         lng: -7.485784628915246,
     }, 
-
-        {
+    {
         title: "Jameson Distillery",
         address: "Old Midleton Distillery, Distillery Walk, Midleton, P25 Y394",
         county: "Cork",
@@ -194,8 +189,7 @@ let dataset = [
         lat: 51.91343553242752, 
         lng: -8.168870408348862
     }, 
-
-        {
+    {
         title: "Teeling Whiskey Distillery",
         address: "13-17 Newmarket, The Liberties, Dublin 8, D08 KD91",
         county: "Dublin",
@@ -206,8 +200,7 @@ let dataset = [
         lat: 53.31432004369853,
         lng: -6.216940845220594
     }, 
-
-        {
+    {
         title: "Bushmills Distillery",
         address: "2 Distillery Rd, Bushmills BT57 8XH",
         county: "Antrim",
@@ -218,8 +211,7 @@ let dataset = [
         lat: 55.20298837855927,
         lng: -6.516550785467245
     }, 
-
-        {
+    {
         title: "Jameson Distillery",
         address: "Bow St, Smithfield, Dublin 7, D07 N9VH",
         county: "Dublin",
