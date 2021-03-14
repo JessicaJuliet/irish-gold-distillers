@@ -38,14 +38,12 @@ let uniqueCountyArray = [];
 
 countyDataset.forEach((countyList) => {
     let countyListItem = countyList.county;
-    //console.log(countyListItem);
     for (i = 0; i < countyListItem.length; i++) {
         if (uniqueCountyArray.includes(countyListItem)) {
             continue;
         } else {
             uniqueCountyArray.push(countyListItem);
         }
-     console.log(uniqueCountyArray);
     }
 });
 
